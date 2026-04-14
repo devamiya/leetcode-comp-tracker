@@ -1,6 +1,8 @@
-import React from 'react';
-import { Search } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
 import { formatSalary, getOfferCurrency } from '../utils/formatters';
+
+const ITEMS_PER_PAGE = 25;
 
 export default function OffersTable({ 
   offers,
@@ -8,7 +10,13 @@ export default function OffersTable({
   currency, setCurrency,
   sortState, setSortState
 }) {
+  const [currentPage, setCurrentPage] = useState(1);
   
+  // Reset pagination when search query or sorting changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchQuery, sortState, currency]);
+
   const handleSort = (column) => {
     if (sortState.column === column) {
       setSortState({ column, direction: sortState.direction === 'asc' ? 'desc' : 'asc' });
@@ -21,6 +29,11 @@ export default function OffersTable({
     if (sortState.column !== column) return <span className="sort-icon">↕</span>;
     return <span className="sort-icon">{sortState.direction === 'asc' ? '↑' : '↓'}</span>;
   };
+
+  // Pagination Logic
+  const totalPages = Math.ceil(offers.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const paginatedOffers = offers.slice(startIndex, startIndex + ITEMS_PER_PAGE);
 
   return (
     <section className="card card-table" id="table-section">
@@ -65,8 +78,8 @@ export default function OffersTable({
             </tr>
           </thead>
           <tbody>
-            {offers.map((o, i) => (
-              <tr key={i}>
+            {paginatedOffers.map((o, i) => (
+              <tr key={startIndex + i}>
                 <td><span className="company-badge">{o.company || o.company_normalized || '—'}</span></td>
                 <td><span className="role-badge">{o.role_normalized || o.role || '—'}</span></td>
                 <td>{o.yoe != null ? o.yoe : '—'}</td>
@@ -89,8 +102,31 @@ export default function OffersTable({
           </tbody>
         </table>
       </div>
-      <div className="table-footer">
-        <span>{offers.length} offer{offers.length !== 1 ? 's' : ''}</span>
+      
+      <div className="table-footer-controls">
+        <div className="table-stats">
+          Showing {Math.min(offers.length, startIndex + 1)} - {Math.min(offers.length, startIndex + ITEMS_PER_PAGE)} of {offers.length} offers
+        </div>
+        
+        {totalPages > 1 && (
+          <div className="pagination">
+            <button 
+              className="btn btn-sm btn-secondary" 
+              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+            >
+              <ChevronLeft size={16} />
+            </button>
+            <span className="page-indicator">{currentPage} / {totalPages}</span>
+            <button 
+              className="btn btn-sm btn-secondary" 
+              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+            >
+              <ChevronRight size={16} />
+            </button>
+          </div>
+        )}
       </div>
     </section>
   );

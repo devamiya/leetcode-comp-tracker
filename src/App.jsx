@@ -10,6 +10,8 @@ import { useData } from './hooks/useData';
 import { useFilters } from './hooks/useFilters';
 import { useTheme } from './hooks/useTheme';
 
+import Skeleton from './components/Skeleton';
+
 function App() {
   const { data: globalData, loading, error } = useData();
   const { theme, toggleTheme } = useTheme();
@@ -26,9 +28,18 @@ function App() {
 
   if (loading) {
     return (
-      <div id="loading-screen" className="loading-screen" style={{ display: 'flex' }}>
-        <div className="spinner"></div>
-        <p>Loading compensation data...</p>
+      <div className="app-container" style={{ paddingTop: '100px' }}>
+        <div style={{ display: 'flex', gap: '20px', marginBottom: '40px' }}>
+          <Skeleton type="card" count={6} className="flex-1" />
+        </div>
+        <div style={{ display: 'flex', gap: '24px' }}>
+          <div style={{ flex: 1.75 }}>
+            <Skeleton type="card" style={{ height: '600px' }} />
+          </div>
+          <div style={{ flex: 0.9 }}>
+            <Skeleton type="card" count={3} className="mb-md" />
+          </div>
+        </div>
       </div>
     );
   }
@@ -70,7 +81,7 @@ function App() {
       <div className="app-container">
 
         <main id="main-content">
-          <SummaryCards summary={dashboardData?.summary} />
+          <SummaryCards summary={dashboardData?.summary} currency={currency} />
 
           <div className={`dashboard-layout ${!isSidebarOpen ? 'sidebar-hidden' : ''}`}>
             <div className="dashboard-main">

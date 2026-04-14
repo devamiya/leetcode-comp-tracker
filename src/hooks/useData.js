@@ -71,6 +71,13 @@ export function reaggregateData(offers) {
     if (o.total != null) { roles[r].salary_data_points++; roles[r].total_salary += o.total; }
   });
 
+  const allSalaries = offers.map(o => o.total).filter(t => t != null).sort((a, b) => a - b);
+  const overallMedian = allSalaries.length > 0 ? (
+    allSalaries.length % 2 === 0 
+      ? (allSalaries[allSalaries.length / 2 - 1] + allSalaries[allSalaries.length / 2]) / 2
+      : allSalaries[Math.floor(allSalaries.length / 2)]
+  ) : null;
+
   const companiesArr = Object.values(companies).map(c => {
     c.avg_salary = c.salary_data_points > 0 ? (c.total_salary / c.salary_data_points) : null;
     return c;
@@ -78,7 +85,6 @@ export function reaggregateData(offers) {
 
   const rolesArr = Object.values(roles).map(r => {
     r.avg_salary = r.salary_data_points > 0 ? (r.total_salary / r.salary_data_points) : null;
-    r.median_salary = r.avg_salary; // rough approximation for frontend demo
     return r;
   }).sort((a, b) => b.offer_count - a.offer_count);
 
@@ -88,6 +94,7 @@ export function reaggregateData(offers) {
        total_offers: offers.length,
        unique_companies: companiesArr.length,
        overall_avg_salary: salaryCount > 0 ? totalSalaries / salaryCount : null,
+       overall_median_salary: overallMedian,
        generated_at: new Date().toISOString(),
        date_range: {
          from: minDate ? minDate.toISOString() : null,
