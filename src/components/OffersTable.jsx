@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, ChevronLeft, ChevronRight } from 'lucide-react';
 import { formatSalary, getOfferCurrency } from '../utils/formatters';
+import CompanyLogo from './CompanyLogo';
 
 const ITEMS_PER_PAGE = 25;
 
@@ -80,7 +81,12 @@ export default function OffersTable({
           <tbody>
             {paginatedOffers.map((o, i) => (
               <tr key={startIndex + i}>
-                <td data-label="Company" className="col-company"><span className="company-badge">{o.company || o.company_normalized || '—'}</span></td>
+                <td data-label="Company" className="col-company">
+                  <div className="company-info-cell">
+                    <CompanyLogo name={o.company || o.company_normalized || ''} size={28} />
+                    <span className="company-badge">{o.company || o.company_normalized || '—'}</span>
+                  </div>
+                </td>
                 <td data-label="Role" className="col-role"><span className="role-badge">{o.role_normalized || o.role || '—'}</span></td>
                 <td data-label="YOE" className="col-yoe">{o.yoe != null ? o.yoe : '—'}</td>
                 <td data-label="Base" className="col-base">{o.base != null ? formatSalary(o.base) : '—'}</td>

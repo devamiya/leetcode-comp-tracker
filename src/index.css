@@ -1599,6 +1599,44 @@ td:nth-child(3) {
 }
 ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.25); }
 
+/* Company Logos */
+.company-info-cell {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.company-logo-container {
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: white; /* Clean background for transparent logos */
+  border: 1px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all var(--transition-normal);
+}
+
+.company-logo-container:hover {
+  border-color: var(--accent-start);
+  box-shadow: 0 0 10px rgba(0, 212, 255, 0.2);
+}
+
+.company-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+}
+
+.company-logo-fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 @keyframes badge-glow {
   0%, 100% { box-shadow: 0 0 20px rgba(0, 212, 255, 0.15); border-color: rgba(0, 212, 255, 0.3); }
   50% { box-shadow: 0 0 35px rgba(0, 212, 255, 0.4); border-color: rgba(0, 212, 255, 0.6); }
