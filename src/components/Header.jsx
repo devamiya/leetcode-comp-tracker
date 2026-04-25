@@ -56,7 +56,25 @@ export default function Header({
               )}
             </div>
             <p className="header-subtitle" id="header-subtitle">
-              {summary ? `${summary.total_offers || 0} Offers • ${summary.unique_companies || 0} Companies` : "Establishing data feed..."}
+              {summary ? (
+                <>
+                  <span className="summary-pills">
+                    {summary.total_offers || 0} Offers • {summary.unique_companies || 0} Companies
+                  </span>
+                  {(__BUILD_TIME__) && (
+                    <span className="last-updated-pill">
+                      • Last synced: {new Date(__BUILD_TIME__).toLocaleString([], { 
+                        month: 'short', 
+                        day: 'numeric', 
+                        hour: '2-digit', 
+                        minute: '2-digit' 
+                      })}
+                    </span>
+                  )}
+                </>
+              ) : (
+                "Establishing data feed..."
+              )}
             </p>
           </div>
         </div>
