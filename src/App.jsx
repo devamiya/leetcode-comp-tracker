@@ -12,6 +12,8 @@ import { useData } from './hooks/useData';
 import { useFilters } from './hooks/useFilters';
 import { useTheme } from './hooks/useTheme';
 
+import Skeleton from './components/Skeleton';
+
 function App() {
   const { data: globalData, loading, error } = useData();
   const { theme, toggleTheme } = useTheme();
@@ -115,7 +117,7 @@ function App() {
       <div className="app-container">
         <main id="main-content">
           <ErrorBoundary>
-            <SummaryCards summary={dashboardData?.summary} />
+            <SummaryCards summary={dashboardData?.summary} currency={currency} />
           </ErrorBoundary>
 
           <div className={`dashboard-layout ${!isSidebarOpen ? 'sidebar-hidden' : ''}`}>

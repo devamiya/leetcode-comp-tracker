@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Moon, Sun, Download, RefreshCw, BarChart2, X } from 'lucide-react';
 import Filters from './Filters';
+import AnimatedCounter from './AnimatedCounter';
 
 export default function Header({
   summary,
@@ -24,8 +25,9 @@ export default function Header({
     };
 
     updateOnlineCount();
-    // Update every 10-20 seconds for a realistic "live" feel
-    const interval = setInterval(updateOnlineCount, 100000);
+    // Update every 15 seconds for a realistic "live" feel
+    const interval = setInterval(updateOnlineCount, 15000);
+
     return () => clearInterval(interval);
   }, []);
 
@@ -47,7 +49,9 @@ export default function Header({
                 <div className="online-badge" title="Active visitors right now">
                   <span className="pulse-dot"></span>
                   <span className="status-label">LIVE</span>
-                  <span className="online-count">{onlineCount}</span>
+                  <span className="online-count">
+                    <AnimatedCounter value={onlineCount} live={true} />
+                  </span>
                 </div>
               )}
             </div>
