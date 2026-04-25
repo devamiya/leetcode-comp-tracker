@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://leetcode-comp-tracker.vercel.app/sitemap.xml

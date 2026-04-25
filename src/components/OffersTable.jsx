@@ -51,7 +51,7 @@ export default function OffersTable({
       </div>
       
       <div className="table-scroll">
-        <table>
+        <table className="offers-table">
           <thead>
             <tr>
               <th onClick={() => handleSort('company')} className="sortable">Company <SortIcon column="company"/></th>
@@ -67,14 +67,14 @@ export default function OffersTable({
           <tbody>
             {offers.map((o, i) => (
               <tr key={i}>
-                <td><span className="company-badge">{o.company || o.company_normalized || '—'}</span></td>
-                <td><span className="role-badge">{o.role_normalized || o.role || '—'}</span></td>
-                <td>{o.yoe != null ? o.yoe : '—'}</td>
-                <td>{o.base != null ? formatSalary(o.base) : '—'}</td>
-                <td>{o.total != null ? formatSalary(o.total) : '—'}</td>
-                <td><span className="currency-badge">{getOfferCurrency(o)}</span></td>
-                <td>{o.location || '—'}</td>
-                <td className="td-link">
+                <td data-label="Company" className="col-company"><span className="company-badge">{o.company || o.company_normalized || '—'}</span></td>
+                <td data-label="Role" className="col-role"><span className="role-badge">{o.role_normalized || o.role || '—'}</span></td>
+                <td data-label="YOE" className="col-yoe">{o.yoe != null ? o.yoe : '—'}</td>
+                <td data-label="Base" className="col-base">{o.base != null ? formatSalary(o.base) : '—'}</td>
+                <td data-label="Total" className="col-total">{o.total != null ? formatSalary(o.total) : '—'}</td>
+                <td data-label="Currency" className="col-currency"><span className="currency-badge">{getOfferCurrency(o)}</span></td>
+                <td data-label="Location" className="col-location">{o.location || '—'}</td>
+                <td data-label="Link" className="td-link col-link">
                   {o.post_url ? <a href={o.post_url} target="_blank" rel="noopener noreferrer">View ↗</a> : '—'}
                 </td>
               </tr>

@@ -83,17 +83,26 @@ export function reaggregateData(offers) {
   }).sort((a, b) => b.offer_count - a.offer_count);
 
   return {
-     summary: {
-       total_posts_fetched: uniquePosts.size,
-       total_offers: offers.length,
-       unique_companies: companiesArr.length,
-       overall_avg_salary: salaryCount > 0 ? totalSalaries / salaryCount : null,
-       generated_at: new Date().toISOString(),
-       date_range: {
-         from: minDate ? minDate.toISOString() : null,
-         to: maxDate ? maxDate.toISOString() : null
-       }
-     },
+      summary: {
+        total_posts_fetched: uniquePosts.size,
+        total_offers: offers.length,
+        unique_companies: companiesArr.length,
+        overall_avg_salary: salaryCount > 0 ? totalSalaries / salaryCount : null,
+        overall_median_salary: (() => {
+          const sorted = offers
+            .filter(o => o.total != null)
+            .map(o => o.total)
+            .sort((a, b) => a - b);
+          if (sorted.length === 0) return null;
+          const mid = Math.floor(sorted.length / 2);
+          return sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+        })(),
+        generated_at: new Date().toISOString(),
+        date_range: {
+          from: minDate ? minDate.toISOString() : null,
+          to: maxDate ? maxDate.toISOString() : null
+        }
+      },
      companies: companiesArr,
      roles: rolesArr,
      offers: offers
