@@ -1,14 +1,22 @@
-import { useState, useMemo } from 'react';
+import { useMemo } from 'react';
 import { getWeekKey, getMonthKey } from '../utils/dateUtils';
 import { getOfferCurrency } from '../utils/formatters';
 import { reaggregateData } from './useData';
+import { useDebounce } from './useDebounce';
+import useFilterStore from '../store/useFilterStore';
 
 export function useFilters(globalData) {
-  const [periodMode, setPeriodMode] = useState('all'); // 'all', 'weekly', 'monthly'
-  const [subFilter, setSubFilter] = useState('');
-  const [currency, setCurrency] = useState('INR');
-  const [searchQuery, setSearchQuery] = useState('');
-  const [sortState, setSortState] = useState({ column: 'total', direction: 'desc' });
+  const {
+    periodMode, setPeriodMode,
+    subFilter, setSubFilter,
+    currency, setCurrency,
+    searchQuery, setSearchQuery,
+    sortState, setSortState
+  } = useFilterStore();
+
+  // Debounce the search query to reduce computation spikes on keystroke
+  // The input stays responsive (instant typing), only the derived filter is delayed
+  const debouncedSearch = useDebounce(searchQuery, 300);
 
   // 1. Filter out data based on the Time settings
   const timeFilteredData = useMemo(() => {
@@ -30,14 +38,14 @@ export function useFilters(globalData) {
     return reaggregateData(activeOffers);
   }, [globalData, periodMode, subFilter, currency]);
 
-  // 2. Filter out data based on the Search String for the Table only
+  // 2. Filter out data based on the (debounced) Search String for the Table only
   const searchFilteredOffers = useMemo(() => {
     if (!timeFilteredData) return [];
     
     let filtered = timeFilteredData.offers;
     
-    if (searchQuery) {
-      const search = searchQuery.toLowerCase().trim();
+    if (debouncedSearch) {
+      const search = debouncedSearch.toLowerCase().trim();
       filtered = filtered.filter(o => {
         const haystack = [
           o.company, o.company_normalized, o.role, o.role_normalized, o.location,
@@ -58,7 +66,7 @@ export function useFilters(globalData) {
       return sortState.direction === 'asc' ? cmp : -cmp;
     });
 
-  }, [timeFilteredData, searchQuery, sortState]);
+  }, [timeFilteredData, debouncedSearch, sortState]);
 
   return {
     periodMode, setPeriodMode,

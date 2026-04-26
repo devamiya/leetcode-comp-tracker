@@ -1,40 +1,33 @@
-import { useState, useEffect } from 'react';
+import { useMemo } from 'react';
+import { useQuery } from '@tanstack/react-query';
 import { getWeekKey, getMonthKey, parseWeekKey, addDaysUtc, formatWeekLabel, formatMonthLabel } from '../utils/dateUtils';
 import { titleCase } from '../utils/formatters';
+import { fetchAllData } from '../api/offers.api';
 
+/**
+ * useData — fetches global compensation data via React Query.
+ * 
+ * Benefits over raw useEffect fetch:
+ * - Caching: navigate away and back = instant (staleTime: 5 min)
+ * - Background refetch: data stays fresh
+ * - Automatic retry on failure (2 retries)
+ * - Deduplication: multiple consumers don't trigger multiple fetches
+ */
 export function useData() {
-  const [data, setData] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
+  const { data, isLoading: loading, error } = useQuery({
+    queryKey: ['offers'],
+    queryFn: fetchAllData,
+    staleTime: 5 * 60 * 1000,        // 5 min — data doesn't change that fast
+    gcTime: 30 * 60 * 1000,           // 30 min cache
+    retry: 2,
+    refetchOnWindowFocus: false,       // Prevent unnecessary refetches
+  });
 
-  useEffect(() => {
-    async function loadData() {
-      try {
-        let resp = await fetch('/data.json');
-        let isJson = resp.headers.get("content-type")?.includes("application/json");
-
-        if (!resp.ok || !isJson) {
-           throw new Error('No data available.');
-        }
-
-        const globalData = await resp.json();
-        
-        if (!globalData || !globalData.offers) {
-           throw new Error('No data available.');
-        }
-
-        setData(globalData);
-      } catch (err) {
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    }
-    
-    loadData();
-  }, []);
-
-  return { data, loading, error };
+  return {
+    data: data || null,
+    loading,
+    error: error?.message || (error ? String(error) : null),
+  };
 }
 
 // Function to re-aggregate data based on filtered offers (Ported from Vanilla JS)

@@ -1,0 +1,62 @@
+/* ============================================
+   Trends Page
+   ============================================ */
+.trends-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+  .trends-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.trends-chart-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(var(--glass-blur));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-lg);
+  animation: card-enter 0.4s ease both;
+}
+
+.trends-chart-card.full-width {
+  grid-column: 1 / -1;
+}
+
+/* ============================================
+   Empty State
+   ============================================ */
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl) var(--space-lg);
+  text-align: center;
+  animation: card-enter 0.4s ease both;
+}
+
+.empty-state-icon {
+  width: 80px;
+  height: 80px;
+  margin-bottom: var(--space-lg);
+  opacity: 0.3;
+}
+
+.empty-state-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+  color: var(--text-primary);
+}
+
+.empty-state-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  max-width: 360px;
+  margin-bottom: var(--space-lg);
+}
