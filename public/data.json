@@ -1,22 +1,22 @@
 {
   "summary": {
-    "total_posts_fetched": 492,
-    "total_offers": 492,
+    "total_posts_fetched": 493,
+    "total_offers": 493,
     "unique_companies": 213,
-    "unique_roles": 103,
-    "salary_data_points": 483,
-    "overall_avg_salary": 73159.44,
+    "unique_roles": 105,
+    "salary_data_points": 484,
+    "overall_avg_salary": 72612.04,
     "overall_median_salary": 40,
     "date_range": {
       "from": "2026-01-01T07:19:06.107698+00:00",
       "to": "2026-04-26T11:24:13.836156+00:00"
     },
-    "generated_at": "2026-04-26T12:46:28.495Z"
+    "generated_at": "2026-04-27T01:59:20.289Z"
   },
   "companies": [
     {
       "company": "Rakuten Japan",
-      "company_normalized": "rakuten",
+      "company_normalized": "rakuten japan",
       "offer_count": 1,
       "salary_data_points": 1,
       "avg_salary": 6400000,
@@ -26,8 +26,7 @@
       "offers": [
         {
           "role": "Associate Applications Engineer",
-          "role_normalized": "SDE",
-          "yoe": null,
+          "role_normalized": "Associate Applications Engineer",
           "base": 380000,
           "total": 6400000,
           "currency": "JPY",
@@ -305,7 +304,7 @@
       "company_normalized": "microsoft",
       "offer_count": 52,
       "salary_data_points": 52,
-      "avg_salary": 206813.1,
+      "avg_salary": 203124.49,
       "median_salary": 54,
       "min_salary": 21,
       "max_salary": 6140000,
@@ -315,7 +314,7 @@
           "role_normalized": "SDE 2",
           "yoe": 3.6,
           "base": 28,
-          "total": 41.8,
+          "total": 42,
           "currency": "INR",
           "salary_unit": "lpa",
           "location": "India",
@@ -341,8 +340,9 @@
         {
           "role": "L61",
           "role_normalized": "SDE 2",
-          "base": 154000,
-          "total": 192000,
+          "yoe": "unspecified",
+          "base": 154,
+          "total": 192,
           "currency": "USD",
           "salary_unit": "annual",
           "location": "Seattle",
@@ -2934,7 +2934,7 @@
       "offers": [
         {
           "role": "Business Process Consultant - T2",
-          "role_normalized": "Consultant",
+          "role_normalized": "Business Process Consultant",
           "yoe": 4.9,
           "base": 18.9,
           "total": 21,
@@ -3166,7 +3166,7 @@
         {
           "role": "Software Engineer 3",
           "role_normalized": "SDE 3",
-          "yoe": 5.9,
+          "yoe": 5.75,
           "base": 42.27,
           "total": 51,
           "currency": "INR",
@@ -4553,18 +4553,6 @@
       "max_salary": 43,
       "offers": [
         {
-          "role_normalized": "unknown",
-          "yoe": 7,
-          "base": 34,
-          "total": 43,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Compensation at LAM Research",
-          "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
-          "post_date": "2026-04-24T06:32:25.542013+00:00"
-        },
-        {
           "role": "unspecified",
           "role_normalized": "unspecified",
           "yoe": 7,
@@ -4573,6 +4561,19 @@
           "currency": "INR",
           "salary_unit": "lpa",
           "location": "unspecified",
+          "offer_type": "full-time",
+          "post_title": "Compensation at LAM Research",
+          "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
+          "post_date": "2026-04-24T06:32:25.542013+00:00"
+        },
+        {
+          "role_normalized": "unknown",
+          "yoe": 7,
+          "base": 34,
+          "total": 43,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": null,
           "offer_type": "full-time",
           "post_title": "Compensation at LAM Research",
           "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -7068,29 +7069,6 @@
       ]
     },
     {
-      "company": "WEX Inc.",
-      "company_normalized": "wex inc",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 28,
-      "median_salary": 28,
-      "min_salary": 28,
-      "max_salary": 28,
-      "offers": [
-        {
-          "role_normalized": "unknown",
-          "base": 28,
-          "total": 28,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "How significant is a jump in fixed pay",
-          "post_url": "https://leetcode.com/discuss/compensation/7528601/how-significant-is-a-jump-in-fixed-pay-b-x4if",
-          "post_date": "2026-01-27T10:03:45.113713+00:00"
-        }
-      ]
-    },
-    {
       "company": "FIS Global",
       "company_normalized": "fis global",
       "offer_count": 1,
@@ -7300,6 +7278,43 @@
       ]
     },
     {
+      "company": "WEX Inc.",
+      "company_normalized": "wex inc",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 27,
+      "median_salary": 28,
+      "min_salary": 26,
+      "max_salary": 28,
+      "offers": [
+        {
+          "role": "Software Development Engineer 2",
+          "role_normalized": "SDE 2",
+          "yoe": 1.5,
+          "base": 25,
+          "total": 26,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "WEX SDE-2 vs Nielsen MTS-1 (Need Suggestion)",
+          "post_url": "https://leetcode.com/discuss/compensation/8096453/wex-sde-2-vs-nielsen-mts-1-by-anonymous_-yu9f",
+          "post_date": "2026-04-25T09:14:57.700849+00:00"
+        },
+        {
+          "role_normalized": "unknown",
+          "base": 28,
+          "total": 28,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "How significant is a jump in fixed pay",
+          "post_url": "https://leetcode.com/discuss/compensation/7528601/how-significant-is-a-jump-in-fixed-pay-b-x4if",
+          "post_date": "2026-01-27T10:03:45.113713+00:00"
+        }
+      ]
+    },
+    {
       "company": "Truemeds",
       "company_normalized": "truemeds",
       "offer_count": 1,
@@ -7375,7 +7390,7 @@
       "max_salary": 26,
       "offers": [
         {
-          "role": "Software Development Engineer 2",
+          "role": "Software Development Engineer 2 (SDE-2)",
           "role_normalized": "SDE 2",
           "yoe": 1.5,
           "base": 25,
@@ -7967,7 +7982,7 @@
           "salary_unit": "lpa",
           "location": "Bangalore",
           "offer_type": "full-time",
-          "post_title": "WEX SDE-2 vs Nielsen MTS-1",
+          "post_title": "WEX SDE-2 vs Nielsen MTS-1 (Need Suggestion)",
           "post_url": "https://leetcode.com/discuss/compensation/8096453/wex-sde-2-vs-nielsen-mts-1-by-anonymous_-yu9f",
           "post_date": "2026-04-25T09:14:57.700849+00:00"
         },
@@ -9136,6 +9151,13 @@
   ],
   "roles": [
     {
+      "role": "Associate Applications Engineer",
+      "role_normalized": "Associate Applications Engineer",
+      "offer_count": 1,
+      "avg_salary": 6400000,
+      "median_salary": 6400000
+    },
+    {
       "role": "Staff Software Engineer",
       "role_normalized": "Staff",
       "offer_count": 2,
@@ -9148,13 +9170,6 @@
       "offer_count": 2,
       "avg_salary": 1400020.2,
       "median_salary": 2800000
-    },
-    {
-      "role": "Associate Applications Engineer",
-      "role_normalized": "SDE",
-      "offer_count": 47,
-      "avg_salary": 142752.28,
-      "median_salary": 32
     },
     {
       "role": "SSE",
@@ -9187,8 +9202,8 @@
     {
       "role": "Software Development Engineer 2",
       "role_normalized": "SDE 2",
-      "offer_count": 115,
-      "avg_salary": 91866.52,
+      "offer_count": 116,
+      "avg_salary": 89421.28,
       "median_salary": 40
     },
     {
@@ -9232,6 +9247,13 @@
       "offer_count": 14,
       "avg_salary": 5318.76,
       "median_salary": 33
+    },
+    {
+      "role": "Backend Software Developer",
+      "role_normalized": "SDE",
+      "offer_count": 46,
+      "avg_salary": 3702.33,
+      "median_salary": 32
     },
     {
       "role": "L5A",
@@ -9724,6 +9746,13 @@
       "median_salary": 21.4
     },
     {
+      "role": "Business Process Consultant - T2",
+      "role_normalized": "Business Process Consultant",
+      "offer_count": 1,
+      "avg_salary": 21,
+      "median_salary": 21
+    },
+    {
       "role": "DataOps Engineer 2",
       "role_normalized": "DataOps Engineer 2",
       "offer_count": 1,
@@ -9750,13 +9779,6 @@
       "offer_count": 1,
       "avg_salary": 18.5,
       "median_salary": 18.5
-    },
-    {
-      "role": "Business Process Consultant - T2",
-      "role_normalized": "Consultant",
-      "offer_count": 2,
-      "avg_salary": 18,
-      "median_salary": 21
     },
     {
       "role": "Full Stack Developer",
@@ -9803,6 +9825,13 @@
     {
       "role": "AI ML",
       "role_normalized": "AI ML",
+      "offer_count": 1,
+      "avg_salary": 15,
+      "median_salary": 15
+    },
+    {
+      "role": "Consultant",
+      "role_normalized": "Consultant",
       "offer_count": 1,
       "avg_salary": 15,
       "median_salary": 15
@@ -9860,10 +9889,9 @@
   "offers": [
     {
       "company": "Rakuten Japan",
-      "company_normalized": "rakuten",
+      "company_normalized": "rakuten japan",
       "role": "Associate Applications Engineer",
-      "role_normalized": "SDE",
-      "yoe": null,
+      "role_normalized": "Associate Applications Engineer",
       "base": 380000,
       "total": 6400000,
       "bonus": 1420000,
@@ -9882,13 +9910,12 @@
       "company": "SAP Labs",
       "company_normalized": "sap",
       "role": "Business Process Consultant - T2",
-      "role_normalized": "Consultant",
+      "role_normalized": "Business Process Consultant",
       "yoe": 4.9,
       "base": 18.9,
       "total": 21,
-      "bonus": 2.1,
-      "stocks": null,
-      "signing_bonus": 1,
+      "stocks": 0.1,
+      "signing_bonus": 0.1,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -9906,14 +9933,29 @@
       "yoe": 1.5,
       "base": 20,
       "total": 20.5,
-      "bonus": null,
-      "stocks": null,
-      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
       "offer_type": "full-time",
-      "post_title": "WEX SDE-2 vs Nielsen MTS-1",
+      "post_title": "WEX SDE-2 vs Nielsen MTS-1 (Need Suggestion)",
+      "post_url": "https://leetcode.com/discuss/compensation/8096453/wex-sde-2-vs-nielsen-mts-1-by-anonymous_-yu9f",
+      "post_date": "2026-04-25T09:14:57.700849+00:00",
+      "post_upvotes": 1
+    },
+    {
+      "company": "WEX Inc.",
+      "company_normalized": "wex inc",
+      "role": "Software Development Engineer 2",
+      "role_normalized": "SDE 2",
+      "yoe": 1.5,
+      "base": 25,
+      "total": 26,
+      "bonus": 1,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Bangalore",
+      "offer_type": "full-time",
+      "post_title": "WEX SDE-2 vs Nielsen MTS-1 (Need Suggestion)",
       "post_url": "https://leetcode.com/discuss/compensation/8096453/wex-sde-2-vs-nielsen-mts-1-by-anonymous_-yu9f",
       "post_date": "2026-04-25T09:14:57.700849+00:00",
       "post_upvotes": 1
@@ -9921,14 +9963,14 @@
     {
       "company": "WEX Fintech India",
       "company_normalized": "wex fintech",
-      "role": "Software Development Engineer 2",
+      "role": "Software Development Engineer 2 (SDE-2)",
       "role_normalized": "SDE 2",
       "yoe": 1.5,
       "base": 25,
       "total": 26,
-      "bonus": 1,
-      "stocks": null,
-      "signing_bonus": null,
+      "bonus": 0,
+      "stocks": 1,
+      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -9936,7 +9978,7 @@
       "post_title": "WEX SDE-2 vs Nielsen MTS-1",
       "post_url": "https://leetcode.com/discuss/compensation/8096453/wex-sde-2-vs-nielsen-mts-1-by-anonymous_-yu9f",
       "post_date": "2026-04-25T09:14:57.700849+00:00",
-      "post_upvotes": 1
+      "post_upvotes": 0
     },
     {
       "company": "Nielsen Media",
@@ -9962,9 +10004,9 @@
       "role_normalized": "SDE 2",
       "yoe": 3.6,
       "base": 28,
-      "total": 41.8,
-      "bonus": 2.8,
-      "stocks": 11,
+      "total": 42,
+      "bonus": 0,
+      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "India",
@@ -9997,14 +10039,15 @@
     {
       "company": "LAM Research",
       "company_normalized": "lam research",
-      "role_normalized": "unknown",
+      "role": "unspecified",
+      "role_normalized": "unspecified",
       "yoe": 7,
       "base": 34,
       "total": 43,
-      "bonus": 4.08,
-      "stocks": 5,
+      "bonus": 0.12,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "unspecified",
       "offer_type": "full-time",
       "post_title": "Compensation at LAM Research",
       "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -10014,17 +10057,15 @@
     {
       "company": "LAM Research",
       "company_normalized": "lam research",
-      "role": "unspecified",
-      "role_normalized": "unspecified",
+      "role_normalized": "unknown",
       "yoe": 7,
       "base": 34,
       "total": 43,
-      "bonus": 12,
+      "bonus": 4.08,
       "stocks": 10,
-      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "unspecified",
+      "location": null,
       "offer_type": "full-time",
       "post_title": "Compensation at LAM Research",
       "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -10036,11 +10077,11 @@
       "company_normalized": "microsoft",
       "role": "L61",
       "role_normalized": "SDE 2",
-      "base": 154000,
-      "total": 192000,
-      "bonus": 26000,
-      "stocks": 15000,
-      "signing_bonus": 10000,
+      "yoe": "unspecified",
+      "base": 154,
+      "total": 192,
+      "bonus": 0.15,
+      "signing_bonus": 10,
       "currency": "USD",
       "salary_unit": "annual",
       "location": "Seattle",
@@ -10094,11 +10135,10 @@
       "company_normalized": "veeam software",
       "role": "Software Engineer 3",
       "role_normalized": "SDE 3",
-      "yoe": 5.9,
+      "yoe": 5.75,
       "base": 42.27,
       "total": 51,
-      "bonus": 4.227,
-      "stocks": 2.5,
+      "bonus": 0.1,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bengaluru",
