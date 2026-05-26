@@ -1,17 +1,17 @@
 {
   "summary": {
-    "total_posts_fetched": 554,
-    "total_offers": 554,
+    "total_posts_fetched": 561,
+    "total_offers": 561,
     "unique_companies": 234,
-    "unique_roles": 110,
-    "salary_data_points": 544,
-    "overall_avg_salary": 56940.54,
+    "unique_roles": 115,
+    "salary_data_points": 551,
+    "overall_avg_salary": 56507.61,
     "overall_median_salary": 40,
     "date_range": {
       "from": "2026-01-01T07:19:06.107698+00:00",
-      "to": "2026-05-25T11:50:58.787434+00:00"
+      "to": "2026-05-25T15:23:46.424033+00:00"
     },
-    "generated_at": "2026-05-25T14:50:53.680Z"
+    "generated_at": "2026-05-26T02:39:53.340Z"
   },
   "companies": [
     {
@@ -173,13 +173,27 @@
     {
       "company": "Qualcomm",
       "company_normalized": "qualcomm",
-      "offer_count": 5,
-      "salary_data_points": 5,
-      "avg_salary": 560035.1,
+      "offer_count": 6,
+      "salary_data_points": 6,
+      "avg_salary": 466700.92,
       "median_salary": 45.106,
-      "min_salary": 40.4,
+      "min_salary": 30,
       "max_salary": 2800000,
       "offers": [
+        {
+          "role": "Senior AI Engineer",
+          "role_normalized": "SDE",
+          "yoe": 3,
+          "base": 30,
+          "total": 30,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Remote",
+          "offer_type": "full-time",
+          "post_title": "Qualcomm | Senior Software Engineer | YOE: 3",
+          "post_url": "https://leetcode.com/discuss/compensation/8249205/qualcomm-senior-software-engineer-yoe-3-saqnp",
+          "post_date": "2026-05-16T10:41:41.306419+00:00"
+        },
         {
           "role": "Engineer",
           "role_normalized": "Engineer",
@@ -260,8 +274,8 @@
       "max_salary": 392000,
       "offers": [
         {
-          "role": "Senior Engineer",
-          "role_normalized": "SSE",
+          "role": "Senior",
+          "role_normalized": "Senior",
           "yoe": 6.5,
           "base": 237000,
           "total": 392000,
@@ -329,13 +343,40 @@
     {
       "company": "Microsoft",
       "company_normalized": "microsoft",
-      "offer_count": 55,
-      "salary_data_points": 55,
-      "avg_salary": 195536.07,
+      "offer_count": 57,
+      "salary_data_points": 57,
+      "avg_salary": 188677.16,
       "median_salary": 54,
       "min_salary": 21,
       "max_salary": 6140000,
       "offers": [
+        {
+          "role": "L61",
+          "role_normalized": "L61",
+          "yoe": 4.5,
+          "base": 31,
+          "total": 51,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Microsoft | L61",
+          "post_url": "https://leetcode.com/discuss/compensation/8234676/microsoft-l61-by-anonymous_user-c296",
+          "post_date": "2026-05-15T06:47:57.242405+00:00"
+        },
+        {
+          "role": "Software Engineer - 2 (L61)",
+          "role_normalized": "SDE 2",
+          "yoe": 5,
+          "base": 34.5,
+          "total": 63,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Noida",
+          "offer_type": "full-time",
+          "post_title": "Microsoft | Software Engineer - 2 (L61) | May 2025 (Rejected)",
+          "post_url": "https://leetcode.com/discuss/compensation/8234198/microsoft-software-engineer-2-l61-may-20-dusr",
+          "post_date": "2026-05-15T06:21:39.358391+00:00"
+        },
         {
           "role": "SDE2 (L62)",
           "role_normalized": "SDE 2",
@@ -365,23 +406,24 @@
         },
         {
           "role": "L62",
-          "role_normalized": "SDE 2",
+          "role_normalized": "L62",
           "yoe": 7,
           "base": 42,
           "total": 42,
           "currency": "INR",
           "salary_unit": "lpa",
+          "location": "India",
           "offer_type": "full-time",
           "post_title": "Microsoft | L62 | India ",
           "post_url": "https://leetcode.com/discuss/compensation/8154835/microsoft-l62-india-by-anonymous_user-ymme",
           "post_date": "2026-05-06T18:23:36.307352+00:00"
         },
         {
-          "role": "SE2 (L61)",
+          "role": "SE2 (India)",
           "role_normalized": "SDE 2",
           "yoe": 3.6,
           "base": 28,
-          "total": 41.8,
+          "total": 42,
           "currency": "INR",
           "salary_unit": "lpa",
           "location": "India",
@@ -1274,8 +1316,8 @@
           "post_date": "2026-05-19T16:35:34.538838+00:00"
         },
         {
-          "role": "Senior Engineer",
-          "role_normalized": "SSE",
+          "role": "Senior",
+          "role_normalized": "Senior",
           "yoe": 6.5,
           "base": 260000,
           "total": 450000,
@@ -1345,20 +1387,20 @@
           "total": 60,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Remote",
+          "location": "India",
           "offer_type": "full-time",
           "post_title": "Amazon vs Expedia, help me choose please",
           "post_url": "https://leetcode.com/discuss/compensation/8292668/amazon-vs-expedia-help-me-choose-please-xwscm",
           "post_date": "2026-05-25T11:50:58.787434+00:00"
         },
         {
-          "role": "SDE II",
+          "role": "Software Development Engineer II (SDE II, L5)",
           "role_normalized": "SDE 2",
           "yoe": 2.9,
           "base": 44,
           "total": 64,
           "currency": "INR",
-          "salary_unit": "annual",
+          "salary_unit": "lpa",
           "location": "Hyderabad",
           "offer_type": "full-time",
           "post_title": "Amazon SDE II (L5) Compensation | Hyderabad",
@@ -1394,7 +1436,7 @@
         },
         {
           "role": "Applied Scientist 1",
-          "role_normalized": "AS 1",
+          "role_normalized": "Applied Scientist 1",
           "yoe": 0,
           "base": 32,
           "total": 84,
@@ -1893,6 +1935,45 @@
       ]
     },
     {
+      "company": "Deutsche Bank",
+      "company_normalized": "deutsche bank",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 83500,
+      "median_salary": 93000,
+      "min_salary": 74000,
+      "max_salary": 93000,
+      "offers": [
+        {
+          "role": "Senior DevOps Engineer",
+          "role_normalized": "SDE",
+          "yoe": 9,
+          "base": 85000,
+          "total": 93000,
+          "currency": "EUR",
+          "salary_unit": "annual",
+          "location": "Berlin",
+          "offer_type": "full-time",
+          "post_title": "Offer Selection/ Decision - Berlin, Germany",
+          "post_url": "https://leetcode.com/discuss/compensation/8129372/offer-selection-decision-berlin-germany-ln10f",
+          "post_date": "2026-05-02T10:53:04.659876+00:00"
+        },
+        {
+          "role": "Graduate Software Engineer",
+          "role_normalized": "SWE",
+          "base": 74000,
+          "total": 74000,
+          "currency": "EUR",
+          "salary_unit": "annual",
+          "location": "Berlin",
+          "offer_type": "full-time",
+          "post_title": "Deutsche Bank | Software Engineer | Berlin, Germany | Accepted",
+          "post_url": "https://leetcode.com/discuss/compensation/7597123/deutsche-bank-software-engineer-berlin-g-loer",
+          "post_date": "2026-02-21T15:26:31.114474+00:00"
+        }
+      ]
+    },
+    {
       "company": "Stealth Startup",
       "company_normalized": "stealth startup",
       "offer_count": 1,
@@ -1929,8 +2010,8 @@
       "max_salary": 370000,
       "offers": [
         {
-          "role": "Senior Engineer",
-          "role_normalized": "SSE",
+          "role": "Senior",
+          "role_normalized": "Senior",
           "yoe": 6.5,
           "base": 220000,
           "total": 370000,
@@ -2049,21 +2130,21 @@
       ]
     },
     {
-      "company": "Deutsche Bank",
-      "company_normalized": "deutsche bank",
-      "offer_count": 2,
-      "salary_data_points": 2,
-      "avg_salary": 37046.5,
-      "median_salary": 74000,
-      "min_salary": 93,
-      "max_salary": 74000,
+      "company": "Startup",
+      "company_normalized": "startup",
+      "offer_count": 6,
+      "salary_data_points": 6,
+      "avg_salary": 11539,
+      "median_salary": 73,
+      "min_salary": 14,
+      "max_salary": 69000,
       "offers": [
         {
-          "role": "Senior DevOps Engineer",
-          "role_normalized": "SDE",
+          "role": "Site Reliability Engineer",
+          "role_normalized": "SRE",
           "yoe": 9,
-          "base": 85,
-          "total": 93,
+          "base": 69000,
+          "total": 69000,
           "currency": "EUR",
           "salary_unit": "annual",
           "location": "Berlin",
@@ -2073,17 +2154,67 @@
           "post_date": "2026-05-02T10:53:04.659876+00:00"
         },
         {
-          "role": "Graduate Software Engineer",
-          "role_normalized": "SWE",
-          "base": 74000,
-          "total": 74000,
-          "currency": "EUR",
-          "salary_unit": "annual",
-          "location": "Berlin",
+          "role_normalized": "unknown",
+          "base": 33.5,
+          "total": 33.5,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "post_title": "Comparing offers need suggestion",
+          "post_url": "https://leetcode.com/discuss/compensation/7717666/comparing-offers-need-suggestion-by-anon-d3d9",
+          "post_date": "2026-03-30T05:42:30.257427+00:00"
+        },
+        {
+          "role": "Principal Software Engineer",
+          "role_normalized": "Principal",
+          "yoe": 10,
+          "base": 73,
+          "total": 73,
+          "currency": "INR",
+          "salary_unit": "lpa",
           "offer_type": "full-time",
-          "post_title": "Deutsche Bank | Software Engineer | Berlin, Germany | Accepted",
-          "post_url": "https://leetcode.com/discuss/compensation/7597123/deutsche-bank-software-engineer-berlin-g-loer",
-          "post_date": "2026-02-21T15:26:31.114474+00:00"
+          "post_title": "Principal software engineer in Startup vs Senior in SAP India ?",
+          "post_url": "https://leetcode.com/discuss/compensation/7687898/principal-software-engineer-in-startup-v-zg0l",
+          "post_date": "2026-03-24T12:24:46.898208+00:00"
+        },
+        {
+          "role": "Software Engineer",
+          "role_normalized": "SDE",
+          "base": 32,
+          "total": 32,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "JPMC vs Startup – Long Term Career Advice (5.5 YOE)",
+          "post_url": "https://leetcode.com/discuss/compensation/7620196/jpmc-vs-startup-long-term-career-advice-m5h90",
+          "post_date": "2026-03-02T14:48:24.982415+00:00"
+        },
+        {
+          "role": "Engineer",
+          "role_normalized": "SE",
+          "yoe": 0.5,
+          "base": 14,
+          "total": 14,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Remote",
+          "offer_type": "full-time",
+          "post_title": "Early Startup vs MNC",
+          "post_url": "https://leetcode.com/discuss/compensation/7551974/early-startup-vs-mnc-by-anonymous_user-fg5r",
+          "post_date": "2026-02-04T13:03:37.769945+00:00"
+        },
+        {
+          "role": "Senior Backend Engineer",
+          "role_normalized": "SSE",
+          "yoe": 5,
+          "base": 60,
+          "total": 81.5,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Gurgaon",
+          "offer_type": "full-time",
+          "post_title": "Senior Backend Engineer",
+          "post_url": "https://leetcode.com/discuss/compensation/7483471/keychain-senior-backend-engineer-by-lesp-16ec",
+          "post_date": "2026-01-10T13:08:25.327239+00:00"
         }
       ]
     },
@@ -2125,41 +2256,68 @@
       ]
     },
     {
-      "company": "Crowdstrike",
-      "company_normalized": "crowdstrike",
-      "offer_count": 2,
-      "salary_data_points": 2,
-      "avg_salary": 550.5,
-      "median_salary": 1050,
-      "min_salary": 51,
-      "max_salary": 1050,
+      "company": "Atlassian",
+      "company_normalized": "atlassian",
+      "offer_count": 4,
+      "salary_data_points": 4,
+      "avg_salary": 104.5,
+      "median_salary": 100,
+      "min_salary": 94,
+      "max_salary": 125,
       "offers": [
         {
-          "role": "Senior Software Engineer I",
-          "role_normalized": "SSE",
-          "yoe": 11,
-          "base": 70,
-          "total": 1050,
+          "role": "Not specified",
+          "role_normalized": "Not specified",
+          "yoe": 4,
+          "base": 68,
+          "total": 125,
           "currency": "INR",
           "salary_unit": "lpa",
+          "location": "Not specified",
           "offer_type": "full-time",
-          "post_title": "Crowdstrike | Senior software Engineer I",
-          "post_url": "https://leetcode.com/discuss/compensation/8285671/crowdstrike-senior-software-engineer-i-b-lcx2",
-          "post_date": "2026-05-22T07:19:08.232847+00:00"
+          "post_title": "Atlassian | P50 | Offer",
+          "post_url": "https://leetcode.com/discuss/compensation/7582165/atlassian-p50-offer-by-anonymous_user-d91a",
+          "post_date": "2026-02-15T18:43:30.054855+00:00"
         },
         {
-          "role": "Engineer III / DevOps Platform",
-          "role_normalized": "SDE 3",
-          "yoe": 5,
-          "base": 35,
-          "total": 51,
+          "role": "SDE2",
+          "role_normalized": "SDE 2",
+          "yoe": 3,
+          "base": 57,
+          "total": 94,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Bangalore",
+          "location": "Remote",
           "offer_type": "full-time",
-          "post_title": "CrowdStrike India Offer Evaluation (Engineer III / DevOps Platform) – Need Guidance",
-          "post_url": "https://leetcode.com/discuss/compensation/7679644/crowdstrike-india-offer-evaluation-engin-uo2o",
-          "post_date": "2026-03-22T05:58:21.616824+00:00"
+          "post_title": "SDE 2 Airbnb vs P40 Atlassian",
+          "post_url": "https://leetcode.com/discuss/compensation/7555427/sde-2-airbnb-vs-p40-atlassian-by-anonymo-05o7",
+          "post_date": "2026-02-05T16:33:32.997168+00:00"
+        },
+        {
+          "role": "SDE2",
+          "role_normalized": "SDE 2",
+          "yoe": 6,
+          "base": 58,
+          "total": 100,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "New Atlassian SDE2 (P40) Offer – Compensation Details",
+          "post_url": "https://leetcode.com/discuss/compensation/7496550/new-atlassian-sde2-p40-offer-compensatio-qvf2",
+          "post_date": "2026-01-15T10:45:30.486311+00:00"
+        },
+        {
+          "role": "SDE2",
+          "role_normalized": "SDE 2",
+          "yoe": 6,
+          "base": 57,
+          "total": 99,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Atlassian P40 | India",
+          "post_url": "https://leetcode.com/discuss/compensation/7496227/atlassian-p40-india-by-anonymous_user-8itw",
+          "post_date": "2026-01-15T08:28:45.192343+00:00"
         }
       ]
     },
@@ -2168,10 +2326,10 @@
       "company_normalized": "uber",
       "offer_count": 8,
       "salary_data_points": 8,
-      "avg_salary": 230.99,
+      "avg_salary": 84.74,
       "median_salary": 78.7,
       "min_salary": 1.87,
-      "max_salary": 1300,
+      "max_salary": 130,
       "offers": [
         {
           "role": "L4",
@@ -2187,11 +2345,11 @@
           "post_date": "2026-05-09T15:42:29.007836+00:00"
         },
         {
-          "role": "SSE Backend (L5 A)",
+          "role": "SSE",
           "role_normalized": "SSE",
           "yoe": 8,
           "base": 81.3,
-          "total": 1300,
+          "total": 130,
           "currency": "INR",
           "salary_unit": "lpa",
           "offer_type": "full-time",
@@ -2285,72 +2443,6 @@
       ]
     },
     {
-      "company": "Atlassian",
-      "company_normalized": "atlassian",
-      "offer_count": 4,
-      "salary_data_points": 4,
-      "avg_salary": 104.5,
-      "median_salary": 100,
-      "min_salary": 94,
-      "max_salary": 125,
-      "offers": [
-        {
-          "role": "Not specified",
-          "role_normalized": "Not specified",
-          "yoe": 4,
-          "base": 68,
-          "total": 125,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Not specified",
-          "offer_type": "full-time",
-          "post_title": "Atlassian | P50 | Offer",
-          "post_url": "https://leetcode.com/discuss/compensation/7582165/atlassian-p50-offer-by-anonymous_user-d91a",
-          "post_date": "2026-02-15T18:43:30.054855+00:00"
-        },
-        {
-          "role": "SDE2",
-          "role_normalized": "SDE 2",
-          "yoe": 3,
-          "base": 57,
-          "total": 94,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Remote",
-          "offer_type": "full-time",
-          "post_title": "SDE 2 Airbnb vs P40 Atlassian",
-          "post_url": "https://leetcode.com/discuss/compensation/7555427/sde-2-airbnb-vs-p40-atlassian-by-anonymo-05o7",
-          "post_date": "2026-02-05T16:33:32.997168+00:00"
-        },
-        {
-          "role": "SDE2",
-          "role_normalized": "SDE 2",
-          "yoe": 6,
-          "base": 58,
-          "total": 100,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "New Atlassian SDE2 (P40) Offer – Compensation Details",
-          "post_url": "https://leetcode.com/discuss/compensation/7496550/new-atlassian-sde2-p40-offer-compensatio-qvf2",
-          "post_date": "2026-01-15T10:45:30.486311+00:00"
-        },
-        {
-          "role": "SDE2",
-          "role_normalized": "SDE 2",
-          "yoe": 6,
-          "base": 57,
-          "total": 99,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Atlassian P40 | India",
-          "post_url": "https://leetcode.com/discuss/compensation/7496227/atlassian-p40-india-by-anonymous_user-8itw",
-          "post_date": "2026-01-15T08:28:45.192343+00:00"
-        }
-      ]
-    },
-    {
       "company": "Mercor AI",
       "company_normalized": "mercor ai",
       "offer_count": 1,
@@ -2403,6 +2495,46 @@
       ]
     },
     {
+      "company": "Crowdstrike",
+      "company_normalized": "crowdstrike",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 78,
+      "median_salary": 105,
+      "min_salary": 51,
+      "max_salary": 105,
+      "offers": [
+        {
+          "role": "Senior Software Engineer I",
+          "role_normalized": "SSE",
+          "yoe": 11,
+          "base": 70,
+          "total": 105,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": null,
+          "offer_type": "full-time",
+          "post_title": "Crowdstrike | Senior software Engineer I",
+          "post_url": "https://leetcode.com/discuss/compensation/8285671/crowdstrike-senior-software-engineer-i-b-lcx2",
+          "post_date": "2026-05-22T07:19:08.232847+00:00"
+        },
+        {
+          "role": "Engineer III / DevOps Platform",
+          "role_normalized": "SDE 3",
+          "yoe": 5,
+          "base": 35,
+          "total": 51,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "CrowdStrike India Offer Evaluation (Engineer III / DevOps Platform) – Need Guidance",
+          "post_url": "https://leetcode.com/discuss/compensation/7679644/crowdstrike-india-offer-evaluation-engin-uo2o",
+          "post_date": "2026-03-22T05:58:21.616824+00:00"
+        }
+      ]
+    },
+    {
       "company": "Coupang",
       "company_normalized": "coupang",
       "offer_count": 1,
@@ -2423,31 +2555,6 @@
           "post_title": "Coupang (SSE) vs Oracle (IC3) || Where to Join ?",
           "post_url": "https://leetcode.com/discuss/compensation/7511044/coupang-sse-vs-oracle-ic3-where-to-join-ism1y",
           "post_date": "2026-01-20T21:04:55.361436+00:00"
-        }
-      ]
-    },
-    {
-      "company": "Meesho",
-      "company_normalized": "meesho",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 75,
-      "median_salary": 75,
-      "min_salary": 75,
-      "max_salary": 75,
-      "offers": [
-        {
-          "role": "SDE3",
-          "role_normalized": "SDE 3",
-          "yoe": 6,
-          "base": 61,
-          "total": 75,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Meesho SDE3 | India",
-          "post_url": "https://leetcode.com/discuss/compensation/7496220/meesho-sde3-india-by-anonymous_user-e429",
-          "post_date": "2026-01-15T08:24:46.357804+00:00"
         }
       ]
     },
@@ -2556,6 +2663,43 @@
       ]
     },
     {
+      "company": "Meesho",
+      "company_normalized": "meesho",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 67.5,
+      "median_salary": 75,
+      "min_salary": 60,
+      "max_salary": 75,
+      "offers": [
+        {
+          "role": "Data Scientist - I",
+          "role_normalized": "DS",
+          "base": 24,
+          "total": 60,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Meesho Data Scientist - I ",
+          "post_url": "https://leetcode.com/discuss/compensation/8243621/meesho-data-scientist-i-by-anonymous_use-glhu",
+          "post_date": "2026-05-15T17:50:25.103057+00:00"
+        },
+        {
+          "role": "SDE3",
+          "role_normalized": "SDE 3",
+          "yoe": 6,
+          "base": 61,
+          "total": 75,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Meesho SDE3 | India",
+          "post_url": "https://leetcode.com/discuss/compensation/7496220/meesho-sde3-india-by-anonymous_user-e429",
+          "post_date": "2026-01-15T08:24:46.357804+00:00"
+        }
+      ]
+    },
+    {
       "company": "PhonePe",
       "company_normalized": "phonepe",
       "offer_count": 2,
@@ -2632,7 +2776,7 @@
       "offers": [
         {
           "role": "Software Engineer (Frontend)",
-          "role_normalized": "SDE",
+          "role_normalized": "SWE",
           "yoe": 3.75,
           "base": 52,
           "total": 62.4,
@@ -2761,12 +2905,13 @@
       "offers": [
         {
           "role": "Lead consultant",
-          "role_normalized": "Lead consultant",
+          "role_normalized": "Lead Consultant",
+          "yoe": 10,
           "base": 60,
           "total": 60,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Remote",
+          "location": "Pune",
           "offer_type": "full-time",
           "post_title": "Autodesk or Thoughtworks",
           "post_url": "https://leetcode.com/discuss/compensation/8288056/autodesk-or-thoughtworks-by-jqza8c7ps1-uiv9",
@@ -3212,7 +3357,6 @@
         {
           "role": "SSE",
           "role_normalized": "SSE",
-          "yoe": 6,
           "base": 56,
           "total": 56,
           "currency": "INR",
@@ -3367,85 +3511,6 @@
       ]
     },
     {
-      "company": "eBay",
-      "company_normalized": "ebay",
-      "offer_count": 5,
-      "salary_data_points": 5,
-      "avg_salary": 51.34,
-      "median_salary": 54,
-      "min_salary": 30.2,
-      "max_salary": 71,
-      "offers": [
-        {
-          "role": "SE-2 Android",
-          "role_normalized": "SDE 2",
-          "base": 22,
-          "total": 30.2,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "SE-2 Android || EBay || Lowerband",
-          "post_url": "https://leetcode.com/discuss/compensation/8145649/se-2-android-ebay-lowerband-by-ojhasahil-7ih4",
-          "post_date": "2026-05-05T11:53:05.338216+00:00"
-        },
-        {
-          "role": "Software Engineer",
-          "role_normalized": "Software Engineer",
-          "yoe": 4.8,
-          "base": 50,
-          "total": 71,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Bangalore",
-          "offer_type": "full-time",
-          "post_title": "Ebay India Compensation",
-          "post_url": "https://leetcode.com/discuss/compensation/7734113/ebay-india-compensation-by-anonymous_use-aprk",
-          "post_date": "2026-03-31T20:17:12.171079+00:00"
-        },
-        {
-          "role": "MTS1",
-          "role_normalized": "MTS 1",
-          "yoe": 6.5,
-          "base": 50,
-          "total": 68.5,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Bengaluru",
-          "offer_type": "full-time",
-          "post_title": "eBay | MTS1 | Bengaluru",
-          "post_url": "https://leetcode.com/discuss/compensation/7623289/ebay-mts1-bengaluru-by-rajmachawal-jo1b",
-          "post_date": "2026-03-03T19:54:00.534713+00:00"
-        },
-        {
-          "role": "Software Engineer 3",
-          "role_normalized": "SWE",
-          "yoe": 4.5,
-          "base": 33,
-          "total": 33,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Offer Evaluation/Help needed: Booking | Ebay",
-          "post_url": "https://leetcode.com/discuss/compensation/7618157/offer-evaluationhelp-needed-booking-ebay-8usp",
-          "post_date": "2026-03-01T17:03:39.322107+00:00"
-        },
-        {
-          "role": "unspecified",
-          "role_normalized": "unspecified",
-          "yoe": 5.8,
-          "base": 38.6,
-          "total": 54,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "unspecified",
-          "offer_type": "full-time",
-          "post_title": "Walmart vs ebay",
-          "post_url": "https://leetcode.com/discuss/compensation/7605742/walmart-vs-ebay-by-anonymous_user-5426",
-          "post_date": "2026-02-24T14:53:27.108027+00:00"
-        }
-      ]
-    },
-    {
       "company": "BitGo",
       "company_normalized": "bitgo",
       "offer_count": 3,
@@ -3457,13 +3522,11 @@
       "offers": [
         {
           "role": "Developer",
-          "role_normalized": "SDE 2",
+          "role_normalized": "Developer",
           "yoe": 3,
-          "base": 35,
           "total": 35,
           "currency": "INR",
-          "salary_unit": "annual",
-          "location": "Bangalore",
+          "salary_unit": "lpa",
           "offer_type": "full-time",
           "post_title": "BitGo (Developer) interview experience",
           "post_url": "https://leetcode.com/discuss/compensation/8102938/bitgo-developer-interview-experience-by-vhzs5",
@@ -3521,95 +3584,6 @@
           "post_title": "Veeam Software | SDE 3 | Bengaluru",
           "post_url": "https://leetcode.com/discuss/compensation/8088654/veeam-software-sde-3-bengaluru-by-anonym-2vfy",
           "post_date": "2026-04-24T05:58:45.577683+00:00"
-        }
-      ]
-    },
-    {
-      "company": "Startup",
-      "company_normalized": "startup",
-      "offer_count": 6,
-      "salary_data_points": 6,
-      "avg_salary": 50.5,
-      "median_salary": 69,
-      "min_salary": 14,
-      "max_salary": 81.5,
-      "offers": [
-        {
-          "role": "Site Reliability Engineer",
-          "role_normalized": "SRE",
-          "yoe": 9,
-          "base": 69,
-          "total": 69,
-          "currency": "EUR",
-          "salary_unit": "annual",
-          "location": "Berlin",
-          "offer_type": "full-time",
-          "post_title": "Offer Selection/ Decision - Berlin, Germany",
-          "post_url": "https://leetcode.com/discuss/compensation/8129372/offer-selection-decision-berlin-germany-ln10f",
-          "post_date": "2026-05-02T10:53:04.659876+00:00"
-        },
-        {
-          "role_normalized": "unknown",
-          "base": 33.5,
-          "total": 33.5,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "post_title": "Comparing offers need suggestion",
-          "post_url": "https://leetcode.com/discuss/compensation/7717666/comparing-offers-need-suggestion-by-anon-d3d9",
-          "post_date": "2026-03-30T05:42:30.257427+00:00"
-        },
-        {
-          "role": "Principal Software Engineer",
-          "role_normalized": "Principal",
-          "yoe": 10,
-          "base": 73,
-          "total": 73,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Principal software engineer in Startup vs Senior in SAP India ?",
-          "post_url": "https://leetcode.com/discuss/compensation/7687898/principal-software-engineer-in-startup-v-zg0l",
-          "post_date": "2026-03-24T12:24:46.898208+00:00"
-        },
-        {
-          "role": "Software Engineer",
-          "role_normalized": "SDE",
-          "base": 32,
-          "total": 32,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "JPMC vs Startup – Long Term Career Advice (5.5 YOE)",
-          "post_url": "https://leetcode.com/discuss/compensation/7620196/jpmc-vs-startup-long-term-career-advice-m5h90",
-          "post_date": "2026-03-02T14:48:24.982415+00:00"
-        },
-        {
-          "role": "Engineer",
-          "role_normalized": "SE",
-          "yoe": 0.5,
-          "base": 14,
-          "total": 14,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Remote",
-          "offer_type": "full-time",
-          "post_title": "Early Startup vs MNC",
-          "post_url": "https://leetcode.com/discuss/compensation/7551974/early-startup-vs-mnc-by-anonymous_user-fg5r",
-          "post_date": "2026-02-04T13:03:37.769945+00:00"
-        },
-        {
-          "role": "Senior Backend Engineer",
-          "role_normalized": "SSE",
-          "yoe": 5,
-          "base": 60,
-          "total": 81.5,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Gurgaon",
-          "offer_type": "full-time",
-          "post_title": "Senior Backend Engineer",
-          "post_url": "https://leetcode.com/discuss/compensation/7483471/keychain-senior-backend-engineer-by-lesp-16ec",
-          "post_date": "2026-01-10T13:08:25.327239+00:00"
         }
       ]
     },
@@ -3687,6 +3661,86 @@
           "post_title": "Barclays | AVP",
           "post_url": "https://leetcode.com/discuss/compensation/7517370/barclays-avp-by-anonymous_user-vx0i",
           "post_date": "2026-01-23T09:34:43.192178+00:00"
+        }
+      ]
+    },
+    {
+      "company": "eBay",
+      "company_normalized": "ebay",
+      "offer_count": 5,
+      "salary_data_points": 5,
+      "avg_salary": 49.7,
+      "median_salary": 54,
+      "min_salary": 22,
+      "max_salary": 71,
+      "offers": [
+        {
+          "role": "SE-2 Android",
+          "role_normalized": "SDE 2",
+          "base": 22,
+          "total": 22,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": null,
+          "offer_type": "full-time",
+          "post_title": "SE-2 Android || EBay || Lowerband",
+          "post_url": "https://leetcode.com/discuss/compensation/8145649/se-2-android-ebay-lowerband-by-ojhasahil-7ih4",
+          "post_date": "2026-05-05T11:53:05.338216+00:00"
+        },
+        {
+          "role": "Software Engineer",
+          "role_normalized": "Software Engineer",
+          "yoe": 4.8,
+          "base": 50,
+          "total": 71,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "Ebay India Compensation",
+          "post_url": "https://leetcode.com/discuss/compensation/7734113/ebay-india-compensation-by-anonymous_use-aprk",
+          "post_date": "2026-03-31T20:17:12.171079+00:00"
+        },
+        {
+          "role": "MTS1",
+          "role_normalized": "MTS 1",
+          "yoe": 6.5,
+          "base": 50,
+          "total": 68.5,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bengaluru",
+          "offer_type": "full-time",
+          "post_title": "eBay | MTS1 | Bengaluru",
+          "post_url": "https://leetcode.com/discuss/compensation/7623289/ebay-mts1-bengaluru-by-rajmachawal-jo1b",
+          "post_date": "2026-03-03T19:54:00.534713+00:00"
+        },
+        {
+          "role": "Software Engineer 3",
+          "role_normalized": "SWE",
+          "yoe": 4.5,
+          "base": 33,
+          "total": 33,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Offer Evaluation/Help needed: Booking | Ebay",
+          "post_url": "https://leetcode.com/discuss/compensation/7618157/offer-evaluationhelp-needed-booking-ebay-8usp",
+          "post_date": "2026-03-01T17:03:39.322107+00:00"
+        },
+        {
+          "role": "unspecified",
+          "role_normalized": "unspecified",
+          "yoe": 5.8,
+          "base": 38.6,
+          "total": 54,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "unspecified",
+          "offer_type": "full-time",
+          "post_title": "Walmart vs ebay",
+          "post_url": "https://leetcode.com/discuss/compensation/7605742/walmart-vs-ebay-by-anonymous_user-5426",
+          "post_date": "2026-02-24T14:53:27.108027+00:00"
         }
       ]
     },
@@ -4073,7 +4127,7 @@
         {
           "role": "MTS",
           "role_normalized": "MTS",
-          "yoe": 2.9,
+          "yoe": 2.92,
           "base": 27.4,
           "total": 41.4,
           "currency": "INR",
@@ -4087,6 +4141,7 @@
         {
           "role": "AMTS",
           "role_normalized": "MTS",
+          "yoe": 0,
           "base": 16.5,
           "total": 16.5,
           "currency": "INR",
@@ -4634,7 +4689,7 @@
           "total": 45,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Remote",
+          "location": "India",
           "offer_type": "full-time",
           "post_title": "Amazon vs Expedia, help me choose please",
           "post_url": "https://leetcode.com/discuss/compensation/8292668/amazon-vs-expedia-help-me-choose-please-xwscm",
@@ -4658,8 +4713,8 @@
           "yoe": 5,
           "base": 45,
           "total": 45,
-          "currency": "USD",
-          "salary_unit": "annual",
+          "currency": "INR",
+          "salary_unit": "lpa",
           "location": "India",
           "offer_type": "full-time",
           "post_title": "Need Advice: Choosing Between Kotak, WEX, Navan and Lucidity (YOE 5)",
@@ -4705,13 +4760,13 @@
       "max_salary": 87,
       "offers": [
         {
-          "role": "T2 - Developer, Fullstack",
-          "role_normalized": "SDE 2",
+          "role": "Developer, Fullstack",
+          "role_normalized": "Fullstack Developer",
           "yoe": 3,
           "base": 25,
           "total": 25,
           "currency": "INR",
-          "salary_unit": "annual",
+          "salary_unit": "lpa",
           "location": "Devnahalli Bangalore",
           "offer_type": "full-time",
           "post_title": "SAP Labs (T2) interview experience",
@@ -4961,6 +5016,7 @@
           "total": 43,
           "currency": "INR",
           "salary_unit": "lpa",
+          "location": "Bangalore",
           "offer_type": "full-time",
           "post_title": "Arm - Engineer",
           "post_url": "https://leetcode.com/discuss/compensation/8137362/arm-engineer-by-anonymous_user-eril",
@@ -4971,22 +5027,20 @@
     {
       "company": "LAM Research",
       "company_normalized": "lam research",
-      "offer_count": 3,
-      "salary_data_points": 3,
+      "offer_count": 2,
+      "salary_data_points": 2,
       "avg_salary": 43,
       "median_salary": 43,
       "min_salary": 43,
       "max_salary": 43,
       "offers": [
         {
-          "role": "Engineer",
-          "role_normalized": "Engineer",
+          "role_normalized": "unknown",
           "yoe": 7,
           "base": 34,
           "total": 43,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "India",
           "offer_type": "full-time",
           "post_title": "Compensation at LAM Research",
           "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -5001,19 +5055,6 @@
           "currency": "INR",
           "salary_unit": "lpa",
           "location": "unspecified",
-          "offer_type": "full-time",
-          "post_title": "Compensation at LAM Research",
-          "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
-          "post_date": "2026-04-24T06:32:25.542013+00:00"
-        },
-        {
-          "role_normalized": "unknown",
-          "yoe": 7,
-          "base": 34,
-          "total": 43,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": null,
           "offer_type": "full-time",
           "post_title": "Compensation at LAM Research",
           "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -5088,8 +5129,8 @@
       "company_normalized": "kotak mahindra bank",
       "offer_count": 7,
       "salary_data_points": 7,
-      "avg_salary": 41.76,
-      "median_salary": 37,
+      "avg_salary": 42.23,
+      "median_salary": 40.3,
       "min_salary": 28.6,
       "max_salary": 58.7,
       "offers": [
@@ -5098,7 +5139,7 @@
           "role_normalized": "SDE 2",
           "yoe": 3.1,
           "base": 33,
-          "total": 33,
+          "total": 40.3,
           "currency": "INR",
           "salary_unit": "lpa",
           "location": "Hyderabad",
@@ -5108,14 +5149,13 @@
           "post_date": "2026-05-25T08:57:00.813619+00:00"
         },
         {
-          "role": "Software Engineer",
-          "role_normalized": "SDE",
+          "role": "SDE-1",
+          "role_normalized": "SDE 1",
           "yoe": 4,
           "base": 50,
-          "total": 54,
+          "total": 50,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Remote",
           "offer_type": "full-time",
           "post_title": "Kotak Mahindra Bank — Offer Evaluation (Culture, WLB, Compensation)",
           "post_url": "https://leetcode.com/discuss/compensation/8135763/kotak-mahindra-bank-offer-evaluation-cul-ro6a",
@@ -5191,51 +5231,41 @@
       ]
     },
     {
-      "company": "Globant",
-      "company_normalized": "globant",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 41,
-      "median_salary": 41,
-      "min_salary": 41,
-      "max_salary": 41,
-      "offers": [
-        {
-          "role": "Senior Data Scientist",
-          "role_normalized": "SDS",
-          "yoe": 5.2,
-          "total": 41,
-          "currency": "INR",
-          "salary_unit": "annual",
-          "offer_type": "full-time",
-          "post_title": "Need Help Choosing Between Offers (5.2 YOE, Senior Data Scientist)",
-          "post_url": "https://leetcode.com/discuss/compensation/7754298/need-help-choosing-between-offers-52-yoe-ncbn",
-          "post_date": "2026-04-02T15:17:38.386149+00:00"
-        }
-      ]
-    },
-    {
       "company": "NetApp",
       "company_normalized": "netapp",
-      "offer_count": 8,
-      "salary_data_points": 8,
-      "avg_salary": 40.75,
+      "offer_count": 9,
+      "salary_data_points": 9,
+      "avg_salary": 41.67,
       "median_salary": 38,
       "min_salary": 23,
       "max_salary": 79,
       "offers": [
         {
-          "role": "Software Engineer 3",
+          "role": "Software Engineer - 3",
           "role_normalized": "SDE 3",
           "yoe": 7,
           "base": 38,
-          "total": 46,
+          "total": 45,
           "currency": "INR",
           "salary_unit": "lpa",
+          "location": "Bangalore",
           "offer_type": "full-time",
           "post_title": "NetApp | Software Engineer - 3 | Bangalore | Need Advice",
           "post_url": "https://leetcode.com/discuss/compensation/8284079/netapp-software-engineer-3-bangalore-nee-l6k8",
           "post_date": "2026-05-21T12:58:21.616314+00:00"
+        },
+        {
+          "role": "MTS 3",
+          "role_normalized": "MTS 3",
+          "yoe": 7.5,
+          "base": 41,
+          "total": 50,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "NetApp | MTS 3 | Offer Evaluation | Bangalore",
+          "post_url": "https://leetcode.com/discuss/compensation/8240755/netapp-mts-3-offer-evaluation-bangalore-jlojk",
+          "post_date": "2026-05-15T13:02:57.654790+00:00"
         },
         {
           "role": "SDE2",
@@ -5334,6 +5364,30 @@
       ]
     },
     {
+      "company": "Globant",
+      "company_normalized": "globant",
+      "offer_count": 1,
+      "salary_data_points": 1,
+      "avg_salary": 41,
+      "median_salary": 41,
+      "min_salary": 41,
+      "max_salary": 41,
+      "offers": [
+        {
+          "role": "Senior Data Scientist",
+          "role_normalized": "SDS",
+          "yoe": 5.2,
+          "total": 41,
+          "currency": "INR",
+          "salary_unit": "annual",
+          "offer_type": "full-time",
+          "post_title": "Need Help Choosing Between Offers (5.2 YOE, Senior Data Scientist)",
+          "post_url": "https://leetcode.com/discuss/compensation/7754298/need-help-choosing-between-offers-52-yoe-ncbn",
+          "post_date": "2026-04-02T15:17:38.386149+00:00"
+        }
+      ]
+    },
+    {
       "company": "UiPath",
       "company_normalized": "uipath",
       "offer_count": 1,
@@ -5370,13 +5424,12 @@
       "offers": [
         {
           "role": "SMTS",
-          "role_normalized": "SSE",
+          "role_normalized": "SMTS",
           "yoe": 3,
           "base": 35,
           "total": 35,
           "currency": "INR",
-          "salary_unit": "annual",
-          "location": "unspecified",
+          "salary_unit": "lpa",
           "offer_type": "full-time",
           "post_title": "Oracle Health (IC3 – SMTS) interview experience ",
           "post_url": "https://leetcode.com/discuss/compensation/8103132/oracle-health-ic3-smts-interview-experie-jfrm",
@@ -5548,8 +5601,8 @@
       "max_salary": 51,
       "offers": [
         {
-          "role": "Backend Engineer",
-          "role_normalized": "Backend Engineer",
+          "role": "SDE-2",
+          "role_normalized": "SDE 2",
           "yoe": 3.5,
           "base": 26.8,
           "total": 32.48,
@@ -6128,11 +6181,12 @@
         {
           "role": "Senior Software Engineer",
           "role_normalized": "SSE",
+          "yoe": 10,
           "base": 40,
           "total": 40,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Remote",
+          "location": "Pune",
           "offer_type": "full-time",
           "post_title": "Autodesk or Thoughtworks",
           "post_url": "https://leetcode.com/discuss/compensation/8288056/autodesk-or-thoughtworks-by-jqza8c7ps1-uiv9",
@@ -6229,24 +6283,37 @@
       ]
     },
     {
-      "company": "Walmart Global Tech",
+      "company": "Walmart India",
       "company_normalized": "walmart",
-      "offer_count": 15,
-      "salary_data_points": 15,
-      "avg_salary": 35.69,
+      "offer_count": 16,
+      "salary_data_points": 16,
+      "avg_salary": 35.44,
       "median_salary": 34.5,
       "min_salary": 23,
       "max_salary": 56.9,
       "offers": [
         {
-          "role": "Data Engineer",
-          "role_normalized": "SDE 2",
+          "role": "SWE III",
+          "role_normalized": "SDE 3",
+          "yoe": 3,
+          "base": 24,
+          "total": 31.7666666667,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "Walmart SDE 3 Offer | 3 years",
+          "post_url": "https://leetcode.com/discuss/compensation/8293033/walmart-sde-3-offer-3-years-by-anonymous-czgy",
+          "post_date": "2026-05-25T15:23:46.424033+00:00"
+        },
+        {
+          "role": "Data Engineer 3",
+          "role_normalized": "Data Engineer",
           "yoe": 4,
           "base": 18,
           "total": 32,
           "currency": "INR",
-          "salary_unit": "annual",
-          "location": "India",
+          "salary_unit": "lpa",
           "offer_type": "full-time",
           "post_title": "Walmart Global Tech (India) Data Engineer 3 Offer – 3 YOE | ~32 LPA | Need Advice",
           "post_url": "https://leetcode.com/discuss/compensation/8112539/walmart-global-tech-india-data-engineer-s9dzk",
@@ -6463,8 +6530,9 @@
           "yoe": 3,
           "base": 35,
           "total": 35,
-          "currency": "USD",
-          "salary_unit": "annual",
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Remote",
           "offer_type": "full-time",
           "post_title": "Quince SDE 2 Offer Evaluation and Work Culture Review",
           "post_url": "https://leetcode.com/discuss/compensation/8120279/quince-sde-2-offer-evaluation-and-work-c-qpyu",
@@ -6829,6 +6897,32 @@
       ]
     },
     {
+      "company": "Series B product company",
+      "company_normalized": "series b product company",
+      "offer_count": 1,
+      "salary_data_points": 1,
+      "avg_salary": 33,
+      "median_salary": 33,
+      "min_salary": 33,
+      "max_salary": 33,
+      "offers": [
+        {
+          "role": "SDE2",
+          "role_normalized": "SDE 2",
+          "yoe": 3.1,
+          "base": 33,
+          "total": 33,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "Offer Evaluation-Kotak Mahindra Bank",
+          "post_url": "https://leetcode.com/discuss/compensation/8292339/offer-evaluation-kotak-mahindra-bank-by-xq4h4",
+          "post_date": "2026-05-25T08:57:00.813619+00:00"
+        }
+      ]
+    },
+    {
       "company": "Razorpay",
       "company_normalized": "razorpay",
       "offer_count": 1,
@@ -6872,6 +6966,7 @@
           "total": 31,
           "currency": "INR",
           "salary_unit": "lpa",
+          "location": "Hyderabad",
           "offer_type": "full-time",
           "post_title": "Arcesium || SSE || Hyderabad",
           "post_url": "https://leetcode.com/discuss/compensation/8146207/arcesium-sse-hyderabad-by-abhishek_omar-9nuu",
@@ -7063,32 +7158,6 @@
       ]
     },
     {
-      "company": "Vegapay",
-      "company_normalized": "vegapay",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 32,
-      "median_salary": 32,
-      "min_salary": 32,
-      "max_salary": 32,
-      "offers": [
-        {
-          "role": "SDE 2",
-          "role_normalized": "SDE 2",
-          "yoe": 2.7,
-          "base": 32,
-          "total": 32,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": null,
-          "offer_type": "full-time",
-          "post_title": "Vegapay – Interview Experience & Offer | SDE 2",
-          "post_url": "https://leetcode.com/discuss/compensation/7546263/vegapay-interview-experience-offer-sde-2-wbco",
-          "post_date": "2026-02-02T16:46:25.435403+00:00"
-        }
-      ]
-    },
-    {
       "company": "DP World",
       "company_normalized": "dp world",
       "offer_count": 3,
@@ -7164,6 +7233,45 @@
           "post_title": "Is this offer worth switching? Can I negotiate more? Oracle to Fanatics as an SDE-2",
           "post_url": "https://leetcode.com/discuss/compensation/7471826/is-this-offer-worth-switching-can-i-nego-qx72",
           "post_date": "2026-01-06T12:39:09.369365+00:00"
+        }
+      ]
+    },
+    {
+      "company": "JP Morgan Chase",
+      "company_normalized": "jp morgan chase",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 30.75,
+      "median_salary": 32.5,
+      "min_salary": 29,
+      "max_salary": 32.5,
+      "offers": [
+        {
+          "role": "SDE 2",
+          "role_normalized": "SDE 2",
+          "yoe": 4,
+          "base": 29,
+          "total": 32.5,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "[Offer Discussion] JP Morgan Chase SDE 2 — 29L Fixed + 12% Bonus | Worth it?",
+          "post_url": "https://leetcode.com/discuss/compensation/8245638/offer-discussion-jp-morgan-chase-sde-2-2-fwky",
+          "post_date": "2026-05-16T04:47:04.137146+00:00"
+        },
+        {
+          "role": "MLE 2 (Applied AI/ML Associate)",
+          "role_normalized": "MLE",
+          "yoe": 2.5,
+          "base": 26,
+          "total": 29,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "JPMC Applied AI/ML Associate Offer Evaluation",
+          "post_url": "https://leetcode.com/discuss/compensation/7484206/jpmc-applied-aiml-associate-offer-evalua-k7o2",
+          "post_date": "2026-01-10T18:14:28.475062+00:00"
         }
       ]
     },
@@ -7341,9 +7449,9 @@
       "max_salary": 40.22,
       "offers": [
         {
-          "role": "SDE 2",
+          "role": "Sde2",
           "role_normalized": "SDE 2",
-          "yoe": 2.9,
+          "yoe": 2.92,
           "base": 33,
           "total": 40.22,
           "currency": "INR",
@@ -7491,31 +7599,6 @@
       ]
     },
     {
-      "company": "JP Morgan Chase",
-      "company_normalized": "jp morgan chase",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 29,
-      "median_salary": 29,
-      "min_salary": 29,
-      "max_salary": 29,
-      "offers": [
-        {
-          "role": "MLE 2 (Applied AI/ML Associate)",
-          "role_normalized": "MLE",
-          "yoe": 2.5,
-          "base": 26,
-          "total": 29,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "JPMC Applied AI/ML Associate Offer Evaluation",
-          "post_url": "https://leetcode.com/discuss/compensation/7484206/jpmc-applied-aiml-associate-offer-evalua-k7o2",
-          "post_date": "2026-01-10T18:14:28.475062+00:00"
-        }
-      ]
-    },
-    {
       "company": "Cisco",
       "company_normalized": "cisco",
       "offer_count": 5,
@@ -7528,6 +7611,7 @@
         {
           "role": "Software Engineer",
           "role_normalized": "SDE",
+          "yoe": 0,
           "base": 17.5,
           "total": 17.5,
           "currency": "INR",
@@ -7623,6 +7707,43 @@
           "post_title": "Offer Evaluation: JPMC vs Albertsons",
           "post_url": "https://leetcode.com/discuss/compensation/7619151/need-help-to-decide-between-offer-jpmc-a-yrew",
           "post_date": "2026-03-02T06:01:53.856741+00:00"
+        }
+      ]
+    },
+    {
+      "company": "Vegapay",
+      "company_normalized": "vegapay",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 28.5,
+      "median_salary": 32,
+      "min_salary": 25,
+      "max_salary": 32,
+      "offers": [
+        {
+          "role": "SDE-2",
+          "role_normalized": "SDE 2",
+          "total": 25,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Vegapay Offer Evaluation | SDE-2 | Lowballed? + WLB Check",
+          "post_url": "https://leetcode.com/discuss/compensation/8248017/vegapay-offer-evaluation-sde-2-lowballed-msnt",
+          "post_date": "2026-05-16T09:06:16.294457+00:00"
+        },
+        {
+          "role": "SDE 2",
+          "role_normalized": "SDE 2",
+          "yoe": 2.7,
+          "base": 32,
+          "total": 32,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": null,
+          "offer_type": "full-time",
+          "post_title": "Vegapay – Interview Experience & Offer | SDE 2",
+          "post_url": "https://leetcode.com/discuss/compensation/7546263/vegapay-interview-experience-offer-sde-2-wbco",
+          "post_date": "2026-02-02T16:46:25.435403+00:00"
         }
       ]
     },
@@ -8009,7 +8130,7 @@
       "max_salary": 28,
       "offers": [
         {
-          "role": "Software Development Engineer 2",
+          "role": "Software Development Engineer 2 (SDE-2)",
           "role_normalized": "SDE 2",
           "yoe": 1.5,
           "base": 25,
@@ -8509,45 +8630,6 @@
       ]
     },
     {
-      "company": "Licious",
-      "company_normalized": "licious",
-      "offer_count": 2,
-      "salary_data_points": 2,
-      "avg_salary": 24,
-      "median_salary": 36,
-      "min_salary": 12,
-      "max_salary": 36,
-      "offers": [
-        {
-          "role": "SDE-2",
-          "role_normalized": "SDE 2",
-          "yoe": 3.8,
-          "base": 31,
-          "total": 36,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "Licious Offer - Need Advice",
-          "post_url": "https://leetcode.com/discuss/compensation/8154343/licious-offer-need-advice-by-anonymous_u-b0dn",
-          "post_date": "2026-05-06T17:01:28.183161+00:00"
-        },
-        {
-          "role": "SDE 1",
-          "role_normalized": "SDE 1",
-          "yoe": 0,
-          "base": 12,
-          "total": 12,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Bangalore",
-          "offer_type": "full-time",
-          "post_title": "Licious Graduate Trainee ",
-          "post_url": "https://leetcode.com/discuss/compensation/7490869/licious-graduate-trainee-by-anonymous_us-79xu",
-          "post_date": "2026-01-13T05:55:20.132385+00:00"
-        }
-      ]
-    },
-    {
       "company": "Airtel Digital",
       "company_normalized": "airtel digital",
       "offer_count": 1,
@@ -8684,7 +8766,7 @@
       "max_salary": 23,
       "offers": [
         {
-          "role": "SDE 2",
+          "role": "SDE2",
           "role_normalized": "SDE 2",
           "yoe": 3.9,
           "base": 23,
@@ -8700,8 +8782,8 @@
       ]
     },
     {
-      "company": "Vaco",
-      "company_normalized": "vaco",
+      "company": "Vaco Binary",
+      "company_normalized": "vaco binary",
       "offer_count": 1,
       "salary_data_points": 1,
       "avg_salary": 23,
@@ -8811,7 +8893,7 @@
       "max_salary": 26,
       "offers": [
         {
-          "role": "Member Technical Staff I",
+          "role": "Member Technical Staff I (MTS-1)",
           "role_normalized": "MTS 1",
           "yoe": 1.5,
           "base": 20,
@@ -8906,6 +8988,46 @@
       ]
     },
     {
+      "company": "Licious",
+      "company_normalized": "licious",
+      "offer_count": 2,
+      "salary_data_points": 2,
+      "avg_salary": 21.5,
+      "median_salary": 31,
+      "min_salary": 12,
+      "max_salary": 31,
+      "offers": [
+        {
+          "role": "SDE-2",
+          "role_normalized": "SDE 2",
+          "yoe": 3.8,
+          "base": 31,
+          "total": 31,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "Licious Offer - Need Advice",
+          "post_url": "https://leetcode.com/discuss/compensation/8154343/licious-offer-need-advice-by-anonymous_u-b0dn",
+          "post_date": "2026-05-06T17:01:28.183161+00:00"
+        },
+        {
+          "role": "SDE 1",
+          "role_normalized": "SDE 1",
+          "yoe": 0,
+          "base": 12,
+          "total": 12,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "location": "Bangalore",
+          "offer_type": "full-time",
+          "post_title": "Licious Graduate Trainee ",
+          "post_url": "https://leetcode.com/discuss/compensation/7490869/licious-graduate-trainee-by-anonymous_us-79xu",
+          "post_date": "2026-01-13T05:55:20.132385+00:00"
+        }
+      ]
+    },
+    {
       "company": "Freecharge",
       "company_normalized": "freecharge",
       "offer_count": 1,
@@ -8916,7 +9038,7 @@
       "max_salary": 21,
       "offers": [
         {
-          "role": "SSE",
+          "role": "SSE Backend Java",
           "role_normalized": "SSE",
           "yoe": 3.9,
           "base": 21,
@@ -9211,7 +9333,7 @@
       ]
     },
     {
-      "company": "Service based organization",
+      "company": "Service based organization (client: BlackRock)",
       "company_normalized": "service based organization",
       "offer_count": 1,
       "salary_data_points": 1,
@@ -9222,13 +9344,12 @@
       "offers": [
         {
           "role": "Python Developer",
-          "role_normalized": "SDE 2",
-          "yoe": 4,
+          "role_normalized": "SDE",
+          "yoe": 4.3,
           "base": 18,
           "total": 18,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Hybrid",
           "offer_type": "full-time",
           "post_title": "4 YOE - Need advice",
           "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -9339,6 +9460,31 @@
       ]
     },
     {
+      "company": "EU based product based MNC",
+      "company_normalized": "eu based product based mnc",
+      "offer_count": 1,
+      "salary_data_points": 1,
+      "avg_salary": 17,
+      "median_salary": 17,
+      "min_salary": 17,
+      "max_salary": 17,
+      "offers": [
+        {
+          "role": "Data Engineer",
+          "role_normalized": "Data Engineer",
+          "yoe": 2.8,
+          "base": 17,
+          "total": 17,
+          "currency": "INR",
+          "salary_unit": "lpa",
+          "offer_type": "full-time",
+          "post_title": "Data Engineer (2.8 YOE) – Compensation Check",
+          "post_url": "https://leetcode.com/discuss/compensation/8114232/data-engineer-28-yoe-compensation-check-99lzo",
+          "post_date": "2026-04-29T17:12:30.246359+00:00"
+        }
+      ]
+    },
+    {
       "company": "Accenture",
       "company_normalized": "accenture",
       "offer_count": 1,
@@ -9417,7 +9563,7 @@
       ]
     },
     {
-      "company": "PWC india",
+      "company": "PWC India",
       "company_normalized": "pwc",
       "offer_count": 1,
       "salary_data_points": 1,
@@ -9429,12 +9575,11 @@
         {
           "role": "Senior Associate",
           "role_normalized": "SSE",
-          "yoe": 4,
+          "yoe": 4.3,
           "base": 13.2,
           "total": 16.92,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Hybrid",
           "offer_type": "full-time",
           "post_title": "4 YOE - Need advice",
           "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -9557,32 +9702,6 @@
           "post_title": "Nike (SDE 1) vs Deloitte (Retention) | 3.5 YOE | India | Need Career Advice",
           "post_url": "https://leetcode.com/discuss/compensation/7481096/nike-sde-1-vs-deloitte-retention-35-yoe-121gk",
           "post_date": "2026-01-09T15:20:39.251156+00:00"
-        }
-      ]
-    },
-    {
-      "company": "US-based MNC",
-      "company_normalized": "us-based mnc",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 15,
-      "median_salary": 15,
-      "min_salary": 15,
-      "max_salary": 15,
-      "offers": [
-        {
-          "role": "Full Stack Developer",
-          "role_normalized": "Full Stack Developer",
-          "yoe": 2,
-          "base": 15,
-          "total": 15,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "location": "Gurugram",
-          "offer_type": "full-time",
-          "post_title": "Hiring Full Stack Developers (.NET + Angular) | 1.5–3 YOE | Gurugram",
-          "post_url": "https://leetcode.com/discuss/compensation/8292614/hiring-full-stack-developers-net-angular-e7ul",
-          "post_date": "2026-05-25T11:24:43.287797+00:00"
         }
       ]
     },
@@ -9734,8 +9853,8 @@
       ]
     },
     {
-      "company": "German MNC",
-      "company_normalized": "german mnc",
+      "company": "German MNC Product based",
+      "company_normalized": "german mnc product based",
       "offer_count": 1,
       "salary_data_points": 1,
       "avg_salary": 14.2,
@@ -9745,13 +9864,12 @@
       "offers": [
         {
           "role": "Sr. Python Developer",
-          "role_normalized": "SDE 2",
-          "yoe": 4,
+          "role_normalized": "SDE",
+          "yoe": 4.3,
           "base": 13.03,
           "total": 14.2,
           "currency": "INR",
           "salary_unit": "lpa",
-          "location": "Hybrid",
           "offer_type": "full-time",
           "post_title": "4 YOE - Need advice",
           "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -9813,7 +9931,7 @@
           "role": "Machine Learning Engineer",
           "role_normalized": "MLE",
           "yoe": 0,
-          "base": 2.8,
+          "base": 8.3333,
           "total": 13,
           "currency": "INR",
           "salary_unit": "lpa",
@@ -10060,30 +10178,6 @@
       ]
     },
     {
-      "company": "US MNC",
-      "company_normalized": "us mnc",
-      "offer_count": 1,
-      "salary_data_points": 1,
-      "avg_salary": 9,
-      "median_salary": 9,
-      "min_salary": 9,
-      "max_salary": 9,
-      "offers": [
-        {
-          "role": "Associate Software Engineer (aSWE)",
-          "role_normalized": "SWE",
-          "yoe": 0,
-          "total": 9,
-          "currency": "INR",
-          "salary_unit": "lpa",
-          "offer_type": "full-time",
-          "post_title": "US MNC - aSWE Interview Experience",
-          "post_url": "https://leetcode.com/discuss/compensation/8228202/us-mnc-aswe-interview-experience-by-anon-ewp0",
-          "post_date": "2026-05-14T14:02:43.588072+00:00"
-        }
-      ]
-    },
-    {
       "company": "Algo University",
       "company_normalized": "algo university",
       "offer_count": 1,
@@ -10095,8 +10189,7 @@
       "offers": [
         {
           "role": "MTS Intern",
-          "role_normalized": "Intern",
-          "yoe": 0,
+          "role_normalized": "MTS Intern",
           "total": null,
           "currency": "INR",
           "salary_unit": "monthly",
@@ -10237,6 +10330,13 @@
       "median_salary": 3140000
     },
     {
+      "role": "Engineer",
+      "role_normalized": "Engineer",
+      "offer_count": 3,
+      "avg_salary": 933361.13,
+      "median_salary": 43
+    },
+    {
       "role": "Support Engineer",
       "role_normalized": "Support Engineer",
       "offer_count": 1,
@@ -10244,17 +10344,17 @@
       "median_salary": 823000
     },
     {
-      "role": "Engineer",
-      "role_normalized": "Engineer",
-      "offer_count": 4,
-      "avg_salary": 700031.6,
-      "median_salary": 43
+      "role": "Senior",
+      "role_normalized": "Senior",
+      "offer_count": 3,
+      "avg_salary": 404000,
+      "median_salary": 392000
     },
     {
       "role": "Senior Software Engineer",
       "role_normalized": "SSE",
-      "offer_count": 76,
-      "avg_salary": 121404.21,
+      "offer_count": 72,
+      "avg_salary": 111143.18,
       "median_salary": 47
     },
     {
@@ -10274,9 +10374,9 @@
     {
       "role": "SDE-1",
       "role_normalized": "SDE 1",
-      "offer_count": 31,
-      "avg_salary": 93027.3,
-      "median_salary": 29.7
+      "offer_count": 32,
+      "avg_salary": 90121.76,
+      "median_salary": 29.85
     },
     {
       "role": "Software Engineer",
@@ -10295,9 +10395,9 @@
     {
       "role": "SDE 2",
       "role_normalized": "SDE 2",
-      "offer_count": 137,
-      "avg_salary": 77121.36,
-      "median_salary": 40
+      "offer_count": 136,
+      "avg_salary": 77688.53,
+      "median_salary": 40.22
     },
     {
       "role": "IC3",
@@ -10307,32 +10407,39 @@
       "median_salary": 75
     },
     {
-      "role": "MTS Intern",
+      "role": "Site Reliability Engineer",
+      "role_normalized": "SRE",
+      "offer_count": 3,
+      "avg_salary": 23028,
+      "median_salary": 45
+    },
+    {
+      "role": "Product Security Intern",
       "role_normalized": "Intern",
-      "offer_count": 5,
+      "offer_count": 4,
       "avg_salary": 10000,
       "median_salary": 10000
     },
     {
-      "role": "SDE3",
+      "role": "SWE III",
       "role_normalized": "SDE 3",
-      "offer_count": 23,
-      "avg_salary": 9171.63,
+      "offer_count": 24,
+      "avg_salary": 8790.76,
       "median_salary": 43
-    },
-    {
-      "role": "Associate Software Engineer (aSWE)",
-      "role_normalized": "SWE",
-      "offer_count": 15,
-      "avg_salary": 4964.78,
-      "median_salary": 25
     },
     {
       "role": "Software Engineer",
       "role_normalized": "SDE",
-      "offer_count": 52,
-      "avg_salary": 3272.33,
-      "median_salary": 32
+      "offer_count": 53,
+      "avg_salary": 4995.03,
+      "median_salary": 30
+    },
+    {
+      "role": "Software Engineer (Frontend)",
+      "role_normalized": "SWE",
+      "offer_count": 15,
+      "avg_salary": 4968.34,
+      "median_salary": 33
     },
     {
       "role": "L5A",
@@ -10378,7 +10485,7 @@
     },
     {
       "role": "Applied Scientist 1",
-      "role_normalized": "AS 1",
+      "role_normalized": "Applied Scientist 1",
       "offer_count": 1,
       "avg_salary": 84,
       "median_salary": 84
@@ -10454,6 +10561,13 @@
       "median_salary": 65
     },
     {
+      "role": "Backend Engineer",
+      "role_normalized": "Backend Engineer",
+      "offer_count": 1,
+      "avg_salary": 65,
+      "median_salary": 65
+    },
+    {
       "role": "Not specified",
       "role_normalized": "Not specified",
       "offer_count": 3,
@@ -10461,15 +10575,8 @@
       "median_salary": 36
     },
     {
-      "role": "L61",
-      "role_normalized": "L61",
-      "offer_count": 8,
-      "avg_salary": 60.48,
-      "median_salary": 56.8
-    },
-    {
       "role": "Lead consultant",
-      "role_normalized": "Lead consultant",
+      "role_normalized": "Lead Consultant",
       "offer_count": 1,
       "avg_salary": 60,
       "median_salary": 60
@@ -10482,6 +10589,13 @@
       "median_salary": 60
     },
     {
+      "role": "L61",
+      "role_normalized": "L61",
+      "offer_count": 9,
+      "avg_salary": 59.42,
+      "median_salary": 51
+    },
+    {
       "role": "E2",
       "role_normalized": "E2",
       "offer_count": 1,
@@ -10491,8 +10605,8 @@
     {
       "role": "SMTS",
       "role_normalized": "SMTS",
-      "offer_count": 10,
-      "avg_salary": 56.46,
+      "offer_count": 11,
+      "avg_salary": 54.51,
       "median_salary": 49.3
     },
     {
@@ -10531,11 +10645,11 @@
       "median_salary": 57.5
     },
     {
-      "role": "Site Reliability Engineer",
-      "role_normalized": "SRE",
-      "offer_count": 3,
-      "avg_salary": 51,
-      "median_salary": 45
+      "role": "MTS 3",
+      "role_normalized": "MTS 3",
+      "offer_count": 1,
+      "avg_salary": 50,
+      "median_salary": 50
     },
     {
       "role": "AVP - C++ Developer (CCR team)",
@@ -10545,18 +10659,11 @@
       "median_salary": 50
     },
     {
-      "role": "Backend Engineer",
-      "role_normalized": "Backend Engineer",
-      "offer_count": 2,
-      "avg_salary": 48.74,
-      "median_salary": 65
-    },
-    {
       "role": "L62",
       "role_normalized": "L62",
-      "offer_count": 4,
-      "avg_salary": 48.73,
-      "median_salary": 44
+      "offer_count": 5,
+      "avg_salary": 47.38,
+      "median_salary": 42
     },
     {
       "role": "Computer Scientist 1",
@@ -10587,7 +10694,7 @@
       "median_salary": 45
     },
     {
-      "role": "Member Technical Staff I",
+      "role": "Member Technical Staff I (MTS-1)",
       "role_normalized": "MTS 1",
       "offer_count": 2,
       "avg_salary": 44.5,
@@ -10606,6 +10713,13 @@
       "offer_count": 1,
       "avg_salary": 44,
       "median_salary": 44
+    },
+    {
+      "role": "Data Scientist - I",
+      "role_normalized": "DS",
+      "offer_count": 2,
+      "avg_salary": 43.75,
+      "median_salary": 60
     },
     {
       "role": "unspecified",
@@ -10699,6 +10813,13 @@
       "median_salary": 33
     },
     {
+      "role": "Developer",
+      "role_normalized": "Developer",
+      "offer_count": 1,
+      "avg_salary": 35,
+      "median_salary": 35
+    },
+    {
       "role": "SRE 2",
       "role_normalized": "SRE 2",
       "offer_count": 1,
@@ -10755,13 +10876,6 @@
       "median_salary": 28
     },
     {
-      "role": "Data Scientist",
-      "role_normalized": "DS",
-      "offer_count": 1,
-      "avg_salary": 27.5,
-      "median_salary": 27.5
-    },
-    {
       "role": "Senior consultant",
       "role_normalized": "senior consultant",
       "offer_count": 1,
@@ -10783,6 +10897,13 @@
       "median_salary": 26
     },
     {
+      "role": "Developer, Fullstack",
+      "role_normalized": "Fullstack Developer",
+      "offer_count": 1,
+      "avg_salary": 25,
+      "median_salary": 25
+    },
+    {
       "role": "Frontend",
       "role_normalized": "Frontend Engineer",
       "offer_count": 1,
@@ -10802,6 +10923,13 @@
       "offer_count": 1,
       "avg_salary": 25,
       "median_salary": 25
+    },
+    {
+      "role": "Data Engineer",
+      "role_normalized": "Data Engineer",
+      "offer_count": 2,
+      "avg_salary": 24.5,
+      "median_salary": 32
     },
     {
       "role": "L3",
@@ -10923,13 +11051,6 @@
       "median_salary": 16
     },
     {
-      "role": "Full Stack Developer",
-      "role_normalized": "Full Stack Developer",
-      "offer_count": 1,
-      "avg_salary": 15,
-      "median_salary": 15
-    },
-    {
       "role": "System Developer (Sys Dev 1)",
       "role_normalized": "Sys Dev 1",
       "offer_count": 1,
@@ -10993,6 +11114,13 @@
       "median_salary": 1.87
     },
     {
+      "role": "MTS Intern",
+      "role_normalized": "MTS Intern",
+      "offer_count": 1,
+      "avg_salary": null,
+      "median_salary": null
+    },
+    {
       "role": "Software Engineer Intern",
       "role_normalized": "SWE Intern",
       "offer_count": 3,
@@ -11001,6 +11129,25 @@
     }
   ],
   "offers": [
+    {
+      "company": "Walmart India",
+      "company_normalized": "walmart",
+      "role": "SWE III",
+      "role_normalized": "SDE 3",
+      "yoe": 3,
+      "base": 24,
+      "total": 31.7666666667,
+      "bonus": 4.6,
+      "stocks": 3.1666666667,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Bangalore",
+      "offer_type": "full-time",
+      "post_title": "Walmart SDE 3 Offer | 3 years",
+      "post_url": "https://leetcode.com/discuss/compensation/8293033/walmart-sde-3-offer-3-years-by-anonymous-czgy",
+      "post_date": "2026-05-25T15:23:46.424033+00:00",
+      "post_upvotes": 1
+    },
     {
       "company": "Amazon",
       "company_normalized": "amazon",
@@ -11012,7 +11159,7 @@
       "bonus": 18,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Remote",
+      "location": "India",
       "offer_type": "full-time",
       "post_title": "Amazon vs Expedia, help me choose please",
       "post_url": "https://leetcode.com/discuss/compensation/8292668/amazon-vs-expedia-help-me-choose-please-xwscm",
@@ -11031,7 +11178,7 @@
       "stocks": 6.5,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Remote",
+      "location": "India",
       "offer_type": "full-time",
       "post_title": "Amazon vs Expedia, help me choose please",
       "post_url": "https://leetcode.com/discuss/compensation/8292668/amazon-vs-expedia-help-me-choose-please-xwscm",
@@ -11039,20 +11186,21 @@
       "post_upvotes": 0
     },
     {
-      "company": "US-based MNC",
-      "company_normalized": "us-based mnc",
-      "role": "Full Stack Developer",
-      "role_normalized": "Full Stack Developer",
-      "yoe": 2,
-      "base": 15,
-      "total": 15,
+      "company": "Series B product company",
+      "company_normalized": "series b product company",
+      "role": "SDE2",
+      "role_normalized": "SDE 2",
+      "yoe": 3.1,
+      "base": 33,
+      "total": 33,
+      "bonus": 2.7,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Gurugram",
+      "location": "Bangalore",
       "offer_type": "full-time",
-      "post_title": "Hiring Full Stack Developers (.NET + Angular) | 1.5–3 YOE | Gurugram",
-      "post_url": "https://leetcode.com/discuss/compensation/8292614/hiring-full-stack-developers-net-angular-e7ul",
-      "post_date": "2026-05-25T11:24:43.287797+00:00",
+      "post_title": "Offer Evaluation-Kotak Mahindra Bank",
+      "post_url": "https://leetcode.com/discuss/compensation/8292339/offer-evaluation-kotak-mahindra-bank-by-xq4h4",
+      "post_date": "2026-05-25T08:57:00.813619+00:00",
       "post_upvotes": 0
     },
     {
@@ -11062,7 +11210,7 @@
       "role_normalized": "SDE 2",
       "yoe": 3.1,
       "base": 33,
-      "total": 33,
+      "total": 40.3,
       "bonus": 3.3,
       "signing_bonus": 4,
       "currency": "INR",
@@ -11077,15 +11225,15 @@
     {
       "company": "Amazon",
       "company_normalized": "amazon",
-      "role": "SDE II",
+      "role": "Software Development Engineer II (SDE II, L5)",
       "role_normalized": "SDE 2",
       "yoe": 2.9,
       "base": 44,
       "total": 64,
-      "stocks": 200,
+      "bonus": 1.5,
       "signing_bonus": 18,
       "currency": "INR",
-      "salary_unit": "annual",
+      "salary_unit": "lpa",
       "location": "Hyderabad",
       "offer_type": "full-time",
       "post_title": "Amazon SDE II (L5) Compensation | Hyderabad",
@@ -11098,12 +11246,13 @@
       "company_normalized": "autodesk",
       "role": "Senior Software Engineer",
       "role_normalized": "SSE",
+      "yoe": 10,
       "base": 40,
       "total": 40,
-      "stocks": 20,
+      "stocks": 20000,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Remote",
+      "location": "Pune",
       "offer_type": "full-time",
       "post_title": "Autodesk or Thoughtworks",
       "post_url": "https://leetcode.com/discuss/compensation/8288056/autodesk-or-thoughtworks-by-jqza8c7ps1-uiv9",
@@ -11114,12 +11263,13 @@
       "company": "Service based company",
       "company_normalized": "service based company",
       "role": "Lead consultant",
-      "role_normalized": "Lead consultant",
+      "role_normalized": "Lead Consultant",
+      "yoe": 10,
       "base": 60,
       "total": 60,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Remote",
+      "location": "Pune",
       "offer_type": "full-time",
       "post_title": "Autodesk or Thoughtworks",
       "post_url": "https://leetcode.com/discuss/compensation/8288056/autodesk-or-thoughtworks-by-jqza8c7ps1-uiv9",
@@ -11132,9 +11282,11 @@
       "role": "Machine Learning Engineer",
       "role_normalized": "MLE",
       "yoe": 0,
-      "base": 2.8,
+      "base": 8.3333,
       "total": 13,
       "bonus": 2,
+      "stocks": 6,
+      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Pune",
@@ -11151,27 +11303,29 @@
       "role_normalized": "SSE",
       "yoe": 11,
       "base": 70,
-      "total": 1050,
+      "total": 105,
       "bonus": 8.5,
-      "stocks": 25,
+      "stocks": 100000,
+      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": null,
       "offer_type": "full-time",
       "post_title": "Crowdstrike | Senior software Engineer I",
       "post_url": "https://leetcode.com/discuss/compensation/8285671/crowdstrike-senior-software-engineer-i-b-lcx2",
       "post_date": "2026-05-22T07:19:08.232847+00:00",
-      "post_upvotes": 3
+      "post_upvotes": 4
     },
     {
       "company": "Flipkart",
       "company_normalized": "flipkart",
-      "role": "SDE 2",
+      "role": "Sde2",
       "role_normalized": "SDE 2",
-      "yoe": 2.9,
+      "yoe": 2.92,
       "base": 33,
       "total": 40.22,
       "bonus": 3.3,
-      "stocks": 3.92,
+      "stocks": 15.65,
       "signing_bonus": 5,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11187,11 +11341,11 @@
       "company_normalized": "salesforce",
       "role": "MTS",
       "role_normalized": "MTS",
-      "yoe": 2.9,
+      "yoe": 2.92,
       "base": 27.4,
       "total": 41.4,
       "bonus": 2.74,
-      "stocks": 11.3,
+      "stocks": 48,
       "signing_bonus": 3,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11205,15 +11359,17 @@
     {
       "company": "NetApp",
       "company_normalized": "netapp",
-      "role": "Software Engineer 3",
+      "role": "Software Engineer - 3",
       "role_normalized": "SDE 3",
       "yoe": 7,
       "base": 38,
-      "total": 46,
+      "total": 45,
       "bonus": 2,
-      "stocks": 7.33,
+      "stocks": 22,
+      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "Bangalore",
       "offer_type": "full-time",
       "post_title": "NetApp | Software Engineer - 3 | Bangalore | Need Advice",
       "post_url": "https://leetcode.com/discuss/compensation/8284079/netapp-software-engineer-3-bangalore-nee-l6k8",
@@ -11225,10 +11381,11 @@
       "company_normalized": "salesforce",
       "role": "AMTS",
       "role_normalized": "MTS",
+      "yoe": 0,
       "base": 16.5,
       "total": 16.5,
       "bonus": 1.65,
-      "stocks": 7,
+      "stocks": 28,
       "signing_bonus": 5,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11244,10 +11401,11 @@
       "company_normalized": "cisco",
       "role": "Software Engineer",
       "role_normalized": "SDE",
+      "yoe": 0,
       "base": 17.5,
       "total": 17.5,
       "bonus": 0.0875,
-      "stocks": 5,
+      "stocks": 15,
       "signing_bonus": 6.5,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11267,7 +11425,7 @@
       "base": 63,
       "total": 76,
       "bonus": 8,
-      "stocks": 3.125,
+      "stocks": 12500,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -11281,7 +11439,7 @@
       "company": "Postman",
       "company_normalized": "postman",
       "role": "Software Engineer (Frontend)",
-      "role_normalized": "SDE",
+      "role_normalized": "SWE",
       "yoe": 3.75,
       "base": 52,
       "total": 62.4,
@@ -11304,8 +11462,6 @@
       "yoe": 2.67,
       "base": 42,
       "total": 64,
-      "bonus": 1.5,
-      "stocks": 200,
       "signing_bonus": 17,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11317,26 +11473,135 @@
       "post_upvotes": 6
     },
     {
-      "company": "US MNC",
-      "company_normalized": "us mnc",
-      "role": "Associate Software Engineer (aSWE)",
-      "role_normalized": "SWE",
-      "yoe": 0,
-      "total": 9,
+      "company": "Qualcomm",
+      "company_normalized": "qualcomm",
+      "role": "Senior AI Engineer",
+      "role_normalized": "SDE",
+      "yoe": 3,
+      "base": 30,
+      "total": 30,
+      "bonus": 2.7,
+      "stocks": 30000,
+      "signing_bonus": 3,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Remote",
+      "offer_type": "full-time",
+      "post_title": "Qualcomm | Senior Software Engineer | YOE: 3",
+      "post_url": "https://leetcode.com/discuss/compensation/8249205/qualcomm-senior-software-engineer-yoe-3-saqnp",
+      "post_date": "2026-05-16T10:41:41.306419+00:00",
+      "post_upvotes": 3
+    },
+    {
+      "company": "Vegapay",
+      "company_normalized": "vegapay",
+      "role": "SDE-2",
+      "role_normalized": "SDE 2",
+      "total": 25,
       "currency": "INR",
       "salary_unit": "lpa",
       "offer_type": "full-time",
-      "post_title": "US MNC - aSWE Interview Experience",
-      "post_url": "https://leetcode.com/discuss/compensation/8228202/us-mnc-aswe-interview-experience-by-anon-ewp0",
-      "post_date": "2026-05-14T14:02:43.588072+00:00",
+      "post_title": "Vegapay Offer Evaluation | SDE-2 | Lowballed? + WLB Check",
+      "post_url": "https://leetcode.com/discuss/compensation/8248017/vegapay-offer-evaluation-sde-2-lowballed-msnt",
+      "post_date": "2026-05-16T09:06:16.294457+00:00",
+      "post_upvotes": 1
+    },
+    {
+      "company": "JP Morgan Chase",
+      "company_normalized": "jp morgan chase",
+      "role": "SDE 2",
+      "role_normalized": "SDE 2",
+      "yoe": 4,
+      "base": 29,
+      "total": 32.5,
+      "bonus": 3.48,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Bangalore",
+      "offer_type": "full-time",
+      "post_title": "[Offer Discussion] JP Morgan Chase SDE 2 — 29L Fixed + 12% Bonus | Worth it?",
+      "post_url": "https://leetcode.com/discuss/compensation/8245638/offer-discussion-jp-morgan-chase-sde-2-2-fwky",
+      "post_date": "2026-05-16T04:47:04.137146+00:00",
+      "post_upvotes": 1
+    },
+    {
+      "company": "Meesho",
+      "company_normalized": "meesho",
+      "role": "Data Scientist - I",
+      "role_normalized": "DS",
+      "base": 24,
+      "total": 60,
+      "bonus": 7.5,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "offer_type": "full-time",
+      "post_title": "Meesho Data Scientist - I ",
+      "post_url": "https://leetcode.com/discuss/compensation/8243621/meesho-data-scientist-i-by-anonymous_use-glhu",
+      "post_date": "2026-05-15T17:50:25.103057+00:00",
+      "post_upvotes": 3
+    },
+    {
+      "company": "NetApp",
+      "company_normalized": "netapp",
+      "role": "MTS 3",
+      "role_normalized": "MTS 3",
+      "yoe": 7.5,
+      "base": 41,
+      "total": 50,
+      "bonus": 2.5,
+      "stocks": 22000,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "offer_type": "full-time",
+      "post_title": "NetApp | MTS 3 | Offer Evaluation | Bangalore",
+      "post_url": "https://leetcode.com/discuss/compensation/8240755/netapp-mts-3-offer-evaluation-bangalore-jlojk",
+      "post_date": "2026-05-15T13:02:57.654790+00:00",
+      "post_upvotes": 1
+    },
+    {
+      "company": "Microsoft",
+      "company_normalized": "microsoft",
+      "role": "L61",
+      "role_normalized": "L61",
+      "yoe": 4.5,
+      "base": 31,
+      "total": 51,
+      "bonus": 3.1,
+      "stocks": 60000,
+      "signing_bonus": 3,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "offer_type": "full-time",
+      "post_title": "Microsoft | L61",
+      "post_url": "https://leetcode.com/discuss/compensation/8234676/microsoft-l61-by-anonymous_user-c296",
+      "post_date": "2026-05-15T06:47:57.242405+00:00",
       "post_upvotes": 2
+    },
+    {
+      "company": "Microsoft",
+      "company_normalized": "microsoft",
+      "role": "Software Engineer - 2 (L61)",
+      "role_normalized": "SDE 2",
+      "yoe": 5,
+      "base": 34.5,
+      "total": 63,
+      "bonus": 7,
+      "stocks": 22.5,
+      "signing_bonus": 6,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Noida",
+      "offer_type": "full-time",
+      "post_title": "Microsoft | Software Engineer - 2 (L61) | May 2025 (Rejected)",
+      "post_url": "https://leetcode.com/discuss/compensation/8234198/microsoft-software-engineer-2-l61-may-20-dusr",
+      "post_date": "2026-05-15T06:21:39.358391+00:00",
+      "post_upvotes": 1
     },
     {
       "company": "Algo University",
       "company_normalized": "algo university",
       "role": "MTS Intern",
-      "role_normalized": "Intern",
-      "yoe": 0,
+      "role_normalized": "MTS Intern",
       "total": null,
       "currency": "INR",
       "salary_unit": "monthly",
@@ -11373,7 +11638,6 @@
       "base": 8.5,
       "total": 10.08,
       "bonus": 1.5,
-      "stocks": 2,
       "currency": "INR",
       "salary_unit": "lpa",
       "offer_type": "full-time",
@@ -11405,7 +11669,7 @@
       "yoe": 5,
       "base": 43,
       "total": 80.5,
-      "bonus": 8.6,
+      "bonus": null,
       "stocks": 100000,
       "signing_bonus": 6,
       "currency": "INR",
@@ -11477,7 +11741,6 @@
       "company_normalized": "tekion",
       "role": "SSE",
       "role_normalized": "SSE",
-      "yoe": 6,
       "base": 56,
       "total": 56,
       "signing_bonus": 3,
@@ -11498,7 +11761,6 @@
       "base": 26,
       "total": 32.85,
       "bonus": 5,
-      "stocks": 1.85,
       "currency": "INR",
       "salary_unit": "lpa",
       "offer_type": "full-time",
@@ -11510,11 +11772,11 @@
     {
       "company": "Uber",
       "company_normalized": "uber",
-      "role": "SSE Backend (L5 A)",
+      "role": "SSE",
       "role_normalized": "SSE",
       "yoe": 8,
       "base": 81.3,
-      "total": 1300,
+      "total": 130,
       "bonus": 15.3,
       "stocks": 102000,
       "currency": "INR",
@@ -11529,14 +11791,16 @@
       "company": "Microsoft",
       "company_normalized": "microsoft",
       "role": "L62",
-      "role_normalized": "SDE 2",
+      "role_normalized": "L62",
       "yoe": 7,
       "base": 42,
       "total": 42,
+      "bonus": null,
       "stocks": 115000,
       "signing_bonus": 10,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "India",
       "offer_type": "full-time",
       "post_title": "Microsoft | L62 | India ",
       "post_url": "https://leetcode.com/discuss/compensation/8154835/microsoft-l62-india-by-anonymous_user-ymme",
@@ -11550,11 +11814,13 @@
       "role_normalized": "SDE 2",
       "yoe": 3.8,
       "base": 31,
-      "total": 36,
+      "total": 31,
       "bonus": 1,
       "stocks": 4,
+      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "Bangalore",
       "offer_type": "full-time",
       "post_title": "Licious Offer - Need Advice",
       "post_url": "https://leetcode.com/discuss/compensation/8154343/licious-offer-need-advice-by-anonymous_u-b0dn",
@@ -11570,8 +11836,11 @@
       "base": 28,
       "total": 31,
       "bonus": 3,
+      "stocks": null,
+      "signing_bonus": null,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "Hyderabad",
       "offer_type": "full-time",
       "post_title": "Arcesium || SSE || Hyderabad",
       "post_url": "https://leetcode.com/discuss/compensation/8146207/arcesium-sse-hyderabad-by-abhishek_omar-9nuu",
@@ -11584,11 +11853,12 @@
       "role": "SE-2 Android",
       "role_normalized": "SDE 2",
       "base": 22,
-      "total": 30.2,
+      "total": 22,
       "bonus": 2.2,
       "stocks": 6,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": null,
       "offer_type": "full-time",
       "post_title": "SE-2 Android || EBay || Lowerband",
       "post_url": "https://leetcode.com/discuss/compensation/8145649/se-2-android-ebay-lowerband-by-ojhasahil-7ih4",
@@ -11598,8 +11868,8 @@
     {
       "company": "Kotak",
       "company_normalized": "kotak",
-      "role": "Backend Engineer",
-      "role_normalized": "Backend Engineer",
+      "role": "SDE-2",
+      "role_normalized": "SDE 2",
       "yoe": 3.5,
       "base": 26.8,
       "total": 32.48,
@@ -11622,9 +11892,11 @@
       "yoe": 3.1,
       "base": 30,
       "total": 43,
-      "stocks": 35000,
+      "bonus": 0,
+      "stocks": 32,
       "currency": "INR",
       "salary_unit": "lpa",
+      "location": "Bangalore",
       "offer_type": "full-time",
       "post_title": "Arm - Engineer",
       "post_url": "https://leetcode.com/discuss/compensation/8137362/arm-engineer-by-anonymous_user-eril",
@@ -11634,15 +11906,14 @@
     {
       "company": "Kotak Mahindra Bank",
       "company_normalized": "kotak mahindra bank",
-      "role": "Software Engineer",
-      "role_normalized": "SDE",
+      "role": "SDE-1",
+      "role_normalized": "SDE 1",
       "yoe": 4,
       "base": 50,
-      "total": 54,
+      "total": 50,
       "bonus": 4,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Remote",
       "offer_type": "full-time",
       "post_title": "Kotak Mahindra Bank — Offer Evaluation (Culture, WLB, Compensation)",
       "post_url": "https://leetcode.com/discuss/compensation/8135763/kotak-mahindra-bank-offer-evaluation-cul-ro6a",
@@ -11652,8 +11923,8 @@
     {
       "company": "Roblox",
       "company_normalized": "roblox",
-      "role": "Senior Engineer",
-      "role_normalized": "SSE",
+      "role": "Senior",
+      "role_normalized": "Senior",
       "yoe": 6.5,
       "base": 237000,
       "total": 392000,
@@ -11670,8 +11941,8 @@
     {
       "company": "Rippling",
       "company_normalized": "rippling",
-      "role": "Senior Engineer",
-      "role_normalized": "SSE",
+      "role": "Senior",
+      "role_normalized": "Senior",
       "yoe": 6.5,
       "base": 260000,
       "total": 450000,
@@ -11688,8 +11959,8 @@
     {
       "company": "LinkedIn",
       "company_normalized": "linkedin",
-      "role": "Senior Engineer",
-      "role_normalized": "SSE",
+      "role": "Senior",
+      "role_normalized": "Senior",
       "yoe": 6.5,
       "base": 220000,
       "total": 370000,
@@ -11708,7 +11979,7 @@
       "company": "Amazon",
       "company_normalized": "amazon",
       "role": "Applied Scientist 1",
-      "role_normalized": "AS 1",
+      "role_normalized": "Applied Scientist 1",
       "yoe": 0,
       "base": 32,
       "total": 84,
@@ -11730,8 +12001,8 @@
       "role": "Site Reliability Engineer",
       "role_normalized": "SRE",
       "yoe": 9,
-      "base": 69,
-      "total": 69,
+      "base": 69000,
+      "total": 69000,
       "currency": "EUR",
       "salary_unit": "annual",
       "location": "Berlin",
@@ -11747,8 +12018,8 @@
       "role": "Senior DevOps Engineer",
       "role_normalized": "SDE",
       "yoe": 9,
-      "base": 85,
-      "total": 93,
+      "base": 85000,
+      "total": 93000,
       "currency": "EUR",
       "salary_unit": "annual",
       "location": "Berlin",
@@ -11761,13 +12032,14 @@
     {
       "company": "CWAN",
       "company_normalized": "cwan",
-      "role": "SDE 2",
+      "role": "SDE2",
       "role_normalized": "SDE 2",
       "yoe": 3.9,
       "base": 23,
       "total": 23,
       "bonus": 0,
       "stocks": 4500,
+      "signing_bonus": 1,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "India",
@@ -11780,12 +12052,11 @@
     {
       "company": "Freecharge",
       "company_normalized": "freecharge",
-      "role": "SSE",
+      "role": "SSE Backend Java",
       "role_normalized": "SSE",
       "yoe": 3.9,
       "base": 21,
       "total": 21,
-      "bonus": 0,
       "signing_bonus": 1,
       "currency": "INR",
       "salary_unit": "lpa",
@@ -11832,14 +12103,14 @@
       "post_upvotes": 1
     },
     {
-      "company": "Vaco",
-      "company_normalized": "vaco",
+      "company": "Vaco Binary",
+      "company_normalized": "vaco binary",
       "role": "Tech Lead",
       "role_normalized": "TL",
       "yoe": 3.9,
       "base": 23,
       "total": 23,
-      "bonus": 2,
+      "signing_bonus": 2,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "India",
@@ -11859,8 +12130,9 @@
       "total": 35,
       "bonus": 2,
       "stocks": null,
-      "currency": "USD",
-      "salary_unit": "annual",
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "location": "Remote",
       "offer_type": "full-time",
       "post_title": "Quince SDE 2 Offer Evaluation and Work Culture Review",
       "post_url": "https://leetcode.com/discuss/compensation/8120279/quince-sde-2-offer-evaluation-and-work-c-qpyu",
@@ -11911,9 +12183,9 @@
       "yoe": 5,
       "base": 45,
       "total": 45,
-      "stocks": 19.5,
-      "currency": "USD",
-      "salary_unit": "annual",
+      "stocks": 19500,
+      "currency": "INR",
+      "salary_unit": "lpa",
       "location": "India",
       "offer_type": "full-time",
       "post_title": "Need Advice: Choosing Between Kotak, WEX, Navan and Lucidity (YOE 5)",
@@ -11948,7 +12220,7 @@
       "base": 42,
       "total": 67,
       "bonus": 7.4,
-      "stocks": 37,
+      "stocks": 37000,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -11959,17 +12231,32 @@
       "post_upvotes": 3
     },
     {
-      "company": "German MNC",
-      "company_normalized": "german mnc",
+      "company": "EU based product based MNC",
+      "company_normalized": "eu based product based mnc",
+      "role": "Data Engineer",
+      "role_normalized": "Data Engineer",
+      "yoe": 2.8,
+      "base": 17,
+      "total": 17,
+      "currency": "INR",
+      "salary_unit": "lpa",
+      "offer_type": "full-time",
+      "post_title": "Data Engineer (2.8 YOE) – Compensation Check",
+      "post_url": "https://leetcode.com/discuss/compensation/8114232/data-engineer-28-yoe-compensation-check-99lzo",
+      "post_date": "2026-04-29T17:12:30.246359+00:00",
+      "post_upvotes": 0
+    },
+    {
+      "company": "German MNC Product based",
+      "company_normalized": "german mnc product based",
       "role": "Sr. Python Developer",
-      "role_normalized": "SDE 2",
-      "yoe": 4,
+      "role_normalized": "SDE",
+      "yoe": 4.3,
       "base": 13.03,
       "total": 14.2,
       "bonus": 1.17,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Hybrid",
       "offer_type": "full-time",
       "post_title": "4 YOE - Need advice",
       "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -11977,17 +12264,16 @@
       "post_upvotes": 0
     },
     {
-      "company": "PWC india",
+      "company": "PWC India",
       "company_normalized": "pwc",
       "role": "Senior Associate",
       "role_normalized": "SSE",
-      "yoe": 4,
+      "yoe": 4.3,
       "base": 13.2,
       "total": 16.92,
       "bonus": 3.3,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Hybrid",
       "offer_type": "full-time",
       "post_title": "4 YOE - Need advice",
       "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -11995,16 +12281,15 @@
       "post_upvotes": 0
     },
     {
-      "company": "Service based organization",
+      "company": "Service based organization (client: BlackRock)",
       "company_normalized": "service based organization",
       "role": "Python Developer",
-      "role_normalized": "SDE 2",
-      "yoe": 4,
+      "role_normalized": "SDE",
+      "yoe": 4.3,
       "base": 18,
       "total": 18,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "Hybrid",
       "offer_type": "full-time",
       "post_title": "4 YOE - Need advice",
       "post_url": "https://leetcode.com/discuss/compensation/8114073/4-yoe-need-advice-by-user9375du-yoez",
@@ -12012,18 +12297,17 @@
       "post_upvotes": 0
     },
     {
-      "company": "Walmart Global Tech",
+      "company": "Walmart Global Tech (India)",
       "company_normalized": "walmart",
-      "role": "Data Engineer",
-      "role_normalized": "SDE 2",
+      "role": "Data Engineer 3",
+      "role_normalized": "Data Engineer",
       "yoe": 4,
       "base": 18,
       "total": 32,
       "bonus": 3.6,
       "stocks": 9.5,
       "currency": "INR",
-      "salary_unit": "annual",
-      "location": "India",
+      "salary_unit": "lpa",
       "offer_type": "full-time",
       "post_title": "Walmart Global Tech (India) Data Engineer 3 Offer – 3 YOE | ~32 LPA | Need Advice",
       "post_url": "https://leetcode.com/discuss/compensation/8112539/walmart-global-tech-india-data-engineer-s9dzk",
@@ -12034,15 +12318,13 @@
       "company": "Oracle Health",
       "company_normalized": "oracle health",
       "role": "SMTS",
-      "role_normalized": "SSE",
+      "role_normalized": "SMTS",
       "yoe": 3,
       "base": 35,
       "total": 35,
-      "bonus": 4,
-      "stocks": 20,
+      "stocks": 20000,
       "currency": "INR",
-      "salary_unit": "annual",
-      "location": "unspecified",
+      "salary_unit": "lpa",
       "offer_type": "full-time",
       "post_title": "Oracle Health (IC3 – SMTS) interview experience ",
       "post_url": "https://leetcode.com/discuss/compensation/8103132/oracle-health-ic3-smts-interview-experie-jfrm",
@@ -12053,13 +12335,11 @@
       "company": "BitGo",
       "company_normalized": "bitgo",
       "role": "Developer",
-      "role_normalized": "SDE 2",
+      "role_normalized": "Developer",
       "yoe": 3,
-      "base": 35,
       "total": 35,
       "currency": "INR",
-      "salary_unit": "annual",
-      "location": "Bangalore",
+      "salary_unit": "lpa",
       "offer_type": "full-time",
       "post_title": "BitGo (Developer) interview experience",
       "post_url": "https://leetcode.com/discuss/compensation/8102938/bitgo-developer-interview-experience-by-vhzs5",
@@ -12069,13 +12349,13 @@
     {
       "company": "SAP Labs",
       "company_normalized": "sap",
-      "role": "T2 - Developer, Fullstack",
-      "role_normalized": "SDE 2",
+      "role": "Developer, Fullstack",
+      "role_normalized": "Fullstack Developer",
       "yoe": 3,
       "base": 25,
       "total": 25,
       "currency": "INR",
-      "salary_unit": "annual",
+      "salary_unit": "lpa",
       "location": "Devnahalli Bangalore",
       "offer_type": "full-time",
       "post_title": "SAP Labs (T2) interview experience",
@@ -12091,9 +12371,6 @@
       "yoe": 3,
       "base": 20,
       "total": 20,
-      "bonus": 0,
-      "stocks": 0,
-      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -12111,9 +12388,8 @@
       "yoe": 4.83,
       "base": 18.9,
       "total": 21,
-      "bonus": 0,
-      "stocks": 0,
-      "signing_bonus": 1,
+      "bonus": 1,
+      "stocks": 1,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -12126,14 +12402,11 @@
     {
       "company": "Nielsen Media",
       "company_normalized": "nielsen media",
-      "role": "Member Technical Staff I",
+      "role": "Member Technical Staff I (MTS-1)",
       "role_normalized": "MTS 1",
       "yoe": 1.5,
       "base": 20,
       "total": 20.5,
-      "bonus": 0,
-      "stocks": 0,
-      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -12146,14 +12419,12 @@
     {
       "company": "WEX Inc.",
       "company_normalized": "wex inc",
-      "role": "Software Development Engineer 2",
+      "role": "Software Development Engineer 2 (SDE-2)",
       "role_normalized": "SDE 2",
       "yoe": 1.5,
       "base": 25,
       "total": 26,
       "bonus": 1,
-      "stocks": 0,
-      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "Bangalore",
@@ -12203,14 +12474,13 @@
     {
       "company": "Microsoft",
       "company_normalized": "microsoft",
-      "role": "SE2 (L61)",
+      "role": "SE2 (India)",
       "role_normalized": "SDE 2",
       "yoe": 3.6,
       "base": 28,
-      "total": 41.8,
-      "bonus": 0,
+      "total": 42,
+      "bonus": 2.8,
       "stocks": 11,
-      "signing_bonus": 0,
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "India",
@@ -12243,16 +12513,14 @@
     {
       "company": "LAM Research",
       "company_normalized": "lam research",
-      "role": "Engineer",
-      "role_normalized": "Engineer",
+      "role_normalized": "unknown",
       "yoe": 7,
       "base": 34,
       "total": 43,
       "bonus": 4.08,
-      "stocks": 10,
+      "stocks": 5,
       "currency": "INR",
       "salary_unit": "lpa",
-      "location": "India",
       "offer_type": "full-time",
       "post_title": "Compensation at LAM Research",
       "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
@@ -12273,24 +12541,6 @@
       "currency": "INR",
       "salary_unit": "lpa",
       "location": "unspecified",
-      "offer_type": "full-time",
-      "post_title": "Compensation at LAM Research",
-      "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
-      "post_date": "2026-04-24T06:32:25.542013+00:00",
-      "post_upvotes": 2
-    },
-    {
-      "company": "LAM Research",
-      "company_normalized": "lam research",
-      "role_normalized": "unknown",
-      "yoe": 7,
-      "base": 34,
-      "total": 43,
-      "bonus": 4.08,
-      "stocks": 10,
-      "currency": "INR",
-      "salary_unit": "lpa",
-      "location": null,
       "offer_type": "full-time",
       "post_title": "Compensation at LAM Research",
       "post_url": "https://leetcode.com/discuss/compensation/8089392/compensation-at-lam-research-by-divyansh-eja0",
